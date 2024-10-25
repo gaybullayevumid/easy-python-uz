@@ -83,230 +83,231 @@ Python dasturlash tilida `7` ta ma'lumot turi bor, ular quyidagilar:
 
 **Example:**  
 
-  ```python
-    # ikkitalik qo'shtirnoqlar bilan
-    text = "Hello world"
+```python
+# ikkitalik qo'shtirnoqlar bilan
+text = "Hello world"
 
-    # bittalik qo'shtirnoqlar bilan
-    text = 'Hello world'
+# bittalik qo'shtirnoqlar bilan
+text = 'Hello world'
 
-    # Ko'p qatorli stringlar uchlik qo'shtirnoqlar bilan
-    text = """This is a
-    multiline string."""
+# Ko'p qatorli stringlar uchlik qo'shtirnoqlar bilan
+text = """This is a
+multiline string."""
 
-    text = '''This is also a
-    multiline string.'''
-    ```
-    ### STRING USTIDA AMALLAR
-    Matnlarni qo'shish uchun `+` operatoridan foydalanamiz.
-    ```python
-    ism = "Umid"
-    print("Mening ismim " + ism)
-    ```
-    **Natija:** `Mening ismim Umid`
-    ```python
-    ism = "Umid"
-    familiya = "G'aybullayev"
-    print(ism + familiya)
-    ```
-    **Natija:** `UmidG'aybullayev` <br>
-    Yuqoridagi kodimizda ism va familiya qo'shilib qoldi, uni to'g'irlash uchun quyidagi ko'rinishda yozamiz:
-    ```python
-    ism = "Umid"
-    familiya = "G'aybullayev"
-    print(ism + ' ' + familiya)
-    ```
-    **Natija:** `Umid G'aybullayev`
+text = '''This is also a
+multiline string.'''
+```
+### STRING USTIDA AMALLAR
+Matnlarni qo'shish uchun `+` operatoridan foydalanamiz.
+```python
+ism = "Umid"
+print("Mening ismim " + ism)
+```
+**Natija:** `Mening ismim Umid`
+```python
+ism = "Umid"
+familiya = "G'aybullayev"
+print(ism + familiya)
+```
+**Natija:** `UmidG'aybullayev` <br>
+Yuqoridagi kodimizda ism va familiya qo'shilib qoldi, uni to'g'irlash uchun quyidagi ko'rinishda yozamiz:
+```python
+ism = "Umid"
+familiya = "G'aybullayev"
+print(ism + ' ' + familiya)
+```
+**Natija:** `Umid G'aybullayev`
 
-    ### STRING UZUNLIGINI ANIQLASH
-    Matnlarimizni uzunligini topish uchun `len()` funksiyasidan foydalanamiz.
-    ```python
-    text = "Hello, World!"
-    uzunlik = len(text)  # 13
-    print(uzunlik)
-    ```
-    **Natija:** `13`
+### STRING UZUNLIGINI ANIQLASH
+Matnlarimizni uzunligini topish uchun `len()` funksiyasidan foydalanamiz.
+```python
+text = "Hello, World!"
+uzunlik = len(text)  # 13
+print(uzunlik)
+```
+**Natija:** `13`
 
-    ### STRING E'LEMENTLARIGA MUROJAT QILISH
-    Matnlarimiz ichidan o'zimizga kerak bo'lgan harflarni ajratib olish uchun quyidagi usuldan foydalanamiz:
-    ```python
-    text = "Hello world!"
-    first_char = text[0] # H
-    last_char = text[-1]  # '!'
-    substring = text[0:5]  # 'Hello'
-    print(first_char)
-    print(last_char)
-    print(substring)
-    ```
-    **Natija:** <br>
-    `H` <br>
-    `!` <br>
-    `Hello`
+### STRING E'LEMENTLARIGA MUROJAT QILISH
+Matnlarimiz ichidan o'zimizga kerak bo'lgan harflarni ajratib olish uchun quyidagi usuldan foydalanamiz:
+```python
+text = "Hello world!"
+first_char = text[0] # H
+last_char = text[-1]  # '!'
+substring = text[0:5]  # 'Hello'
+print(first_char)
+print(last_char)
+print(substring)
+```
+**Natija:** <br>
+`H` <br>
+`!` <br>
+`Hello`
 
-    ### STRINGLARNI KO'PAYTIRISH
-    ```python
-    text = "Hello"
-    text_repeated = text * 3
-    print(text_repeated)
-    ```
-    **Natija:** `HelloHelloHello`
+### STRINGLARNI KO'PAYTIRISH
+```python
+text = "Hello"
+text_repeated = text * 3
+print(text_repeated)
+```
+**Natija:** `HelloHelloHello`
 
-    ### F-STRING(Python 3.6+)
-    ```python
-    ism = "Umid"
-    yosh = 20
-    text = f"Mening ismim {ism}, yoshim {yosh}da" #Mening ismim Umid, yoshim 20da
-    print(text)
-    ```
-    **Natija:** `Mening ismim Umid, yoshim 20da`
+### F-STRING(Python 3.6+)
+```python
+ism = "Umid"
+yosh = 20
+text = f"Mening ismim {ism}, yoshim {yosh}da" #Mening ismim Umid, yoshim 20da
+print(text)
+```
+**Natija:** `Mening ismim Umid, yoshim 20da`
 
-    ### STRING METODLARI
-    Python dasturlash tilida, stringlar ustida turli xil operatsiyalarni bajarish uchun bir qancha o'rnatilgan metodlar mavjud. Quyida eng ko'p qo'llaniladigan string metodlari va ularning misollari keltirilgan:
+### STRING METODLARI
+Python dasturlash tilida, stringlar ustida turli xil operatsiyalarni bajarish uchun bir qancha o'rnatilgan metodlar mavjud. Quyida eng ko'p qo'llaniladigan string metodlari va ularning misollari keltirilgan:
 
 1. `.upper()` - Matndagi barcha harflarni katta harfga aylantiradi.
 
-    ```python
-    text = "hello"
-    print(text.upper()) #HELLO
-    ```
+```python
+text = "hello"
+print(text.upper()) #HELLO
+```
 2. `.lower()` - Matndagi barcha harflarni kichik harfga aylantiradi.
 
-    ```python
-    text = "HELLO"
-    print(text.lower()) #hello
-    ```
+```python
+text = "HELLO"
+print(text.lower()) #hello
+```
 3. `.capitalize()` - Matnning birinchi harfini katta harfga, qolganlarini kichik harfga aylantiradi.
 
-    ```python
-    text = "hello world"
-    print(text.capitalize()) # Hello world
-    ```
+```python
+text = "hello world"
+print(text.capitalize()) # Hello world
+```
 4. `.title()` - Matndagi har bir so'zning birinchi harfini katta harfga aylantiradi.
 
-    ```python
-    text = "hello world"
-    print(text.title()) # Hello World
-    ```
+```python
+text = "hello world"
+print(text.title()) # Hello World
+```
 5. `.strip()` - Matnning boshida va oxiridagi bo'sh joylarni olib tashlaydi.
 
-    ```python
-    text = "    hello world    "
-    print(text.strip()) # "hello world"
-    ```
+```python
+text = "    hello world    "
+print(text.strip()) # "hello world"
+```
 6. `.lstrip()` - Matnning faqat boshidagi bo'sh joylarni olib tashlaydi.
 
-    ```python
-    text = "    hello world    "
-    print(text.lstrip()) # "hello world    "
-    ```
+```python
+text = "    hello world    "
+print(text.lstrip()) # "hello world    "
+```
 7. `.rstrip()` - Matnning faqat oxiridagi bo'sh joylarni olib tashlaydi.
 
-    ```python
-    text = "    hello world    "
-    print(text.rstrip()) # "    hello world"
-    ```
+```python
+text = "    hello world    "
+print(text.rstrip()) # "    hello world"
+```
 8. `.replace()` - Matndagi ma'lum bir qatorni boshqa qator bilan almashtiradi.
 
-    ```python
-    text = "hello world"
-    print(text.replace("world", "Python"))  # "hello Python"
-    ```
+```python
+text = "hello world"
+print(text.replace("world", "Python"))  # "hello Python"
+```
 9. `.split()` - Matnni ma'lum bir ajratgich bo'yicha qismlarga ajratadi va `ro'yxat` qaytaradi.
 
-    ```python
-    text = "hello world"
-    print(text.split()) # ['hello', 'world']
-    ```
+```python
+text = "hello world"
+print(text.split()) # ['hello', 'world']
+```
 10. `.join()` - Ro'yxatdagi elementlarni birlashtiradi va `string` qaytaradi.
 
-    ```python
-    words = ['hello', 'world']
-    print(" ".join(words))  # "hello world"
-    ```
+```python
+words = ['hello', 'world']
+print(" ".join(words))  # "hello world"
+```
 11. `.find()` - Matn ichida ma'lum bir qatorni qidiradi va uning indeksini qaytaradi. Agar topilmasa, `-1` qaytaradi.
-    ```python
-    text = "hello world"
-    print(text.find("world"))  # 6
-    ```
+```python
+text = "hello world"
+print(text.find("world"))  # 6
+```
 12. `.startswith()` - Matn ma'lum bir qator bilan boshlanishini tekshiradi. `True` yoki `False` qaytaradi.
-    ```python
-    text = "hello world"
-    print(text.startswith("hello"))  # True
-    ```
+```python
+text = "hello world"
+print(text.startswith("hello"))  # True
+```
 13. `.endswith()` - Matn ma'lum bir qator bilan tugashini tekshiradi. `True` yoki `False` qaytaradi.
     ```python
-    text = "hello world"
-    print(text.endswith("world"))  # True 
-    ```
+text = "hello world"
+print(text.endswith("world"))  # True 
+```
 
 ## NUMBER
 
 - **Number** - Raqamli ma'lumot turi 2ga bo'linadi:
     - **Integer(int)** - Butun sonlarni ifodalaydi. Masalan: `10`, `-3`, `42`.
-    Integer ma'lumot turi butun sonlarni ifodalaydi. Bu sonlar `manfiy`, `musbat` yoki `0` bo'lishi mumkin. Integerlar cheklanmagan uzunlikka ega, ya'ni Python juda katta sonlarni ham integer sifatida saqlay oladi.
 
-    ```python
-    x = 10
-    y = -5
-    z = 0
-    a = 12345678901234567890
+Integer ma'lumot turi butun sonlarni ifodalaydi. Bu sonlar `manfiy`, `musbat` yoki `0` bo'lishi mumkin. Integerlar cheklanmagan uzunlikka ega, ya'ni Python juda katta sonlarni ham integer sifatida saqlay oladi.
 
-    print(type(x))  # <class 'int'>
-    print(type(y))  # <class 'int'>
-    print(type(z))  # <class 'int'>
-    print(type(a))  # <class 'int'>
-    ```
-    ### INTEGER OPERATSIYALARI
-    Integerlar ustida asosiy matematik operatsiyalarni bajarish mumkin:
-    ```python
-    a = 10
-    b = 3
+```python
+x = 10
+y = -5
+z = 0
+a = 12345678901234567890
 
-    print(a + b)  # Qo'shish: 13
-    print(a - b)  # Ayirish: 7
-    print(a * b)  # Ko'paytirish: 30
-    print(a / b)  # Bo'lish: 3.3333333333333335
-    print(a // b) # Butun qismini olish: 3
-    print(a % b)  # Qoldiqni olish: 1
-    print(a ** b) # Darajaga ko'tarish: 1000
-    ```
+print(type(x))  # <class 'int'>
+print(type(y))  # <class 'int'>
+print(type(z))  # <class 'int'>
+print(type(a))  # <class 'int'>
+```
+### INTEGER OPERATSIYALARI
+Integerlar ustida asosiy matematik operatsiyalarni bajarish mumkin:
+```python
+a = 10
+b = 3
 
-    ### UZUN SONLARNI KIRITISH
-    Uzun sonlarni kiritishda, qulaylik uchun, raqamlarni pastki chiziq (`_`) yordamida guruhlash mumkin. Python - son tarkibidagi pastki chiziqlarni (`_`) inobatga olmasdan, uzun sonligicha qabul qiladi.
+print(a + b)  # Qo'shish: 13
+print(a - b)  # Ayirish: 7
+print(a * b)  # Ko'paytirish: 30
+print(a / b)  # Bo'lish: 3.3333333333333335
+print(a // b) # Butun qismini olish: 3
+print(a % b)  # Qoldiqni olish: 1
+print(a ** b) # Darajaga ko'tarish: 1000
+```
 
-    ```python
-    aholi_soni = 7_594_000_000 # o'qishga qulay bo'lishi uchun shunaqa ko'rinishda yozdik
-    print("Yer sharida", aholi_soni, "ga yaqin odam yashaydi")
-    ```
+### UZUN SONLARNI KIRITISH
+Uzun sonlarni kiritishda, qulaylik uchun, raqamlarni pastki chiziq (`_`) yordamida guruhlash mumkin. Python - son tarkibidagi pastki chiziqlarni (`_`) inobatga olmasdan, uzun sonligicha qabul qiladi.
 
-    ### KONSTANTA
+```python
+aholi_soni = 7_594_000_000 # o'qishga qulay bo'lishi uchun shunaqa ko'rinishda yozdik
+print("Yer sharida", aholi_soni, "ga yaqin odam yashaydi")
+```
 
-    Aksar dasturlash tillarida `konstant` qiymatlar tushunchasi bor. Konstantlar o'zgarmas bo'ladi (misol uchun `π` ning qiymati konstant, o'zgarmas qiymat). Pythonda konstant tushunchasi yo'q, shuning uchun dasturchilar bunday o'zgaruvchilarning nomini katta harflar bilan yozadilar (`ogohlantirish sifatida`). Bu albatta qat'iy qonun emas, lekin kelajakda o'zgaruvchilar orasida konstant qiymatlarni ajratish uchun yaxshi usul.
+### KONSTANTA
 
-    ```python
-    PI = 3.14159
-    radius = 20.7
-    ```
+Aksar dasturlash tillarida `konstant` qiymatlar tushunchasi bor. Konstantlar o'zgarmas bo'ladi (misol uchun `π` ning qiymati konstant, o'zgarmas qiymat). Pythonda konstant tushunchasi yo'q, shuning uchun dasturchilar bunday o'zgaruvchilarning nomini katta harflar bilan yozadilar (`ogohlantirish sifatida`). Bu albatta qat'iy qonun emas, lekin kelajakda o'zgaruvchilar orasida konstant qiymatlarni ajratish uchun yaxshi usul.
 
-    ### BIR NECHTA O'ZGARUVCHIGA QIYMAT BERISH
-    Birdaniga bir nechta o'zgaruvchiga qiymat berish uchun o'zgaruvchilar va ularga mos qiymatlar vergul (`,`) bilan ajratiladi:
-    ```python
-    x, y, z = 10, -7.25, -30
-    ```
+```python
+PI = 3.14159
+radius = 20.7
+```
 
-    ### O'ZGARUVCHI TURINI ALMASHTIRISH
+### BIR NECHTA O'ZGARUVCHIGA QIYMAT BERISH
+Birdaniga bir nechta o'zgaruvchiga qiymat berish uchun o'zgaruvchilar va ularga mos qiymatlar vergul (`,`) bilan ajratiladi:
+```python
+x, y, z = 10, -7.25, -30
+```
 
-    Python dasturlash tilida o'zgaruvchilar turini bir ma'lumot turidan boshqa ma'lumot turiga o'zgartirish uchun turli xil funksiyalar mavjud. Ushbu jarayon tur o'zgartirish (`type casting`) deb ataladi. Quyida integer, float va string ma'lumot turlarini o'zaro o'zgartirish usullari haqida batafsil ma'lumot keltirilgan.
+### O'ZGARUVCHI TURINI ALMASHTIRISH
 
-    #### Integerda Floatga o'zgartirish
+Python dasturlash tilida o'zgaruvchilar turini bir ma'lumot turidan boshqa ma'lumot turiga o'zgartirish uchun turli xil funksiyalar mavjud. Ushbu jarayon tur o'zgartirish (`type casting`) deb ataladi. Quyida integer, float va string ma'lumot turlarini o'zaro o'zgartirish usullari haqida batafsil ma'lumot keltirilgan.
 
-    ```python
-    x = 10
-    y = float(x)  # 10.0
+#### Integerda Floatga o'zgartirish
 
-    print(type(y))  # <class 'float'>
-    print(y)        # 10.0
-    ```
+```python
+x = 10
+y = float(x)  # 10.0
+
+print(type(y))  # <class 'float'>
+print(y)        # 10.0
+```
 
 #### Floatdan Integerga o'zgartirish
 > [!NOTE]
