@@ -1,3 +1,5 @@
+from django.template.defaultfilters import length
+
 # PYTHON DASTURLASH ASOSLARI
 
 ## 1-dars O'zgaruvchilar va ma'lumot turlari.
@@ -275,12 +277,11 @@ print(text.casefold())
 Bu metod `2` ta argument qabul qiladi: 
 
 ```python
-text.center(width, character)
+text.center(length, character)
 ```
 
-`width` - natijada hosil bo'ladigan satrning umumiy uzunligini belgilaydi.
-
-`character`(ixtiyoriy) - to'ldiriladigan belgi. Agar ko'rsatilmasa, bo'shliq (`" "`) belgisi qo'llaniladi.
+- `length` - natijada hosil bo'ladigan satrning umumiy uzunligini belgilaydi.
+- `character`(ixtiyoriy) - to'ldiriladigan belgi. Agar ko'rsatilmasa, bo'shliq (`" "`) belgisi qo'llaniladi.
 
 ```python
 text = "Python"
@@ -296,11 +297,9 @@ Bu metod `3` ta argument qabul qiladi:
 ```python
 text.count(substring, start, end)
 ```
-`substring` - matn ichida necha marta uchrashini tekshiriladigan argument.
-
-`start`(ixtiyoriy) - qidirishni qayerdan boshlash kerakligini bildiradi.
-
-`end`(ixtiyoriy) - Qidirishni qayerda tugatish kerakligini bildiradi.
+- `substring` - matn ichida necha marta uchrashini tekshiriladigan argument.
+- `start`(ixtiyoriy) - qidirishni qayerdan boshlash kerakligini bildiradi.
+- `end`(ixtiyoriy) - Qidirishni qayerda tugatish kerakligini bildiradi.
 
 ```python
 matn = "Python dasturlash tilini o'rganish juda qiziqarli, chunki Python juda kuchli."
@@ -312,6 +311,25 @@ print(soni)
 
 Yuqoridagi misolda, `.count()` metodi `Python` so'zi matn ichida necha marta uchraganini hisoblab beradi. 
 
+17. `.encode()` - metodi matnni belgilangan kodlash (`encoding`) formatida kodlash uchun ishlatiladi. Bu metod, ayniqsa, turli kodlash tizimlari bilan ishlashda yoki matnni boshqa formatga o'tkazishda yordam beradi.
+
+Bu metod `2` ta argument qabul qiladi: 
+
+```python
+matn.encode(encoding, errors)
+```
+
+- `encoding` - Kodlash formatini belgilaydi. Masalan, `utf-8`, `ascii`, `utf-16`, va hokazo.
+- `errors`(ixtiyoriy) - Xatolik yuz berganda qanday choralar ko'rilishi kerakligini belgilaydi. Eng ko'p ishlatiladigan qiymatlar:
+  - `strict` -  Xatolik yuz berganda `UnicodeDecodeError` xatosini chiqaradi.
+  - `ignore` - Xatoliklarni e'tiborsiz qoldiradi.
+  - `replace` - Xatoliklar o'rniga savol belgisi (`?`) qo'yadi.
+
+```python
+text = "Salom Dunyo!"
+print(text.encode('utf-8'))
+```
+Yuqoridagi misolda, `.encode()` metodi `Salom Dunyo!` matnini `UTF-8` formatida kodlaydi. Natija baytlar (`bytes`) shaklida chiqariladi, ya'ni `b` prefiksi bilan ko'rsatiladi. Bu metod asosan matnlarni turli tizimlarga yuborish yoki saqlash uchun tayyorlashda ishlatiladi.
 
 ## NUMBER
 
