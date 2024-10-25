@@ -11,7 +11,7 @@
 
 ## O'ZGARUVCHILAR
 
-**O'zgaruvchi** - kompyuter xotirasida ma'lum bir qiymatni saqlash uchun ajratilgan joy. `Python`da o'zgaruvchi yaratish va unga qiymat berish juda oson:
+**O'zgaruvchi** - kompyuter xotirasida ma'lum bir qiymatni saqlash uchun ajratilgan joy.
 
 ![alt text](images/image.png)
 
