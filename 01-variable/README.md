@@ -263,20 +263,21 @@ text = "hello world"
 print(text.endswith("world"))  # True 
 ```
 
-14. `.casefold()` - Bu metod kichik harflar va katta harflarni taqqoslashda yordam beradi, ya'ni matndagi har qanday katta harfni kichik harfga aylantiradi. `.casefold()` metodi `.lower()` metodiga o'xshaydi, lekin u turli tillardagi katta-kichik harf farqlarini ham inobatga oladi.
+14. `.casefold()` - metodi kichik harflar va katta harflarni taqqoslashda yordam beradi, ya'ni matndagi har qanday katta harfni kichik harfga aylantiradi. `.casefold()` metodi `.lower()` metodiga o'xshaydi, lekin u turli tillardagi katta-kichik harf farqlarini ham inobatga oladi.
 
 ```python
 text = "Hello World!"
 print(text.casefold())
 ```
 
-15. `.center()` - Bu metod satrni belgilangan uzunlikdagi joyga joylashtiradi va o'rtaga qo'yadi. `.center()` yordamida satrning o'rtasiga joylashtirilgan matnning ikki tomoniga belgilangan belgilar yoki bo'shliqlar qo'shish mumkin.
+15. `.center()` - metodi satrni belgilangan uzunlikdagi joyga joylashtiradi va o'rtaga qo'yadi. `.center()` yordamida satrning o'rtasiga joylashtirilgan matnning ikki tomoniga belgilangan belgilar yoki bo'shliqlar qo'shish mumkin.
 
 Bu metod `2` ta argument qabul qiladi: 
 
 ```python
 text.center(width, character)
 ```
+
 `width` - natijada hosil bo'ladigan satrning umumiy uzunligini belgilaydi.
 
 `character`(ixtiyoriy) - to'ldiriladigan belgi. Agar ko'rsatilmasa, bo'shliq (`" "`) belgisi qo'llaniladi.
@@ -286,6 +287,28 @@ text = "Python"
 print(text.center(12, '*'))
 ```
 Yuqoridagi misolda, `Python` so'zi umumiy uzunligi `12` bo'lgan satrga joylashtirildi va uning ikki tomoniga `*` belgisi qo'shildi. Bu metod, matnni tartib bilan joylashtirish yoki dizayn berish kabi holatlarda qo'l keladi.
+
+
+16. `.count()` - metodi matn ichida belgilar necha marta uchrashini hisoblab beradi. Bu metod, matn ichida maxsus so'zlar yoki belgilar sonini topishga qulay.
+
+Bu metod `3` ta argument qabul qiladi: 
+
+```python
+text.count(substring, start, end)
+```
+`substring` - matn ichida necha marta uchrashini tekshiriladigan argument.
+`start`(ixtiyoriy) - qidirishni qayerdan boshlash kerakligini bildiradi.
+`end`(ixtiyoriy) - Qidirishni qayerda tugatish kerakligini bildiradi.
+
+```python
+matn = "Python dasturlash tilini o'rganish juda qiziqarli, chunki Python juda kuchli."
+soni = matn.count("Python")
+print(soni)
+```
+
+**Natija:** `2` chiqadi, chunki `Python` 2 marta uchragan.
+
+Yuqoridagi misolda, `.count()` metodi `Python` so'zi matn ichida necha marta uchraganini hisoblab beradi. 
 
 
 ## NUMBER
