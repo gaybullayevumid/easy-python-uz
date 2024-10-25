@@ -187,24 +187,26 @@ print(text.capitalize()) # Hello world
 text = "hello world"
 print(text.title()) # Hello World
 ```
-5. `.strip()` - Matnning boshida va oxiridagi bo'sh joylarni olib tashlaydi.
 
-```python
-text = "    hello world    "
-print(text.strip()) # "hello world"
-```
-6. `.lstrip()` - Matnning faqat boshidagi bo'sh joylarni olib tashlaydi.
+5. `.lstrip()` - Matnning faqat boshidagi bo'sh joylarni olib tashlaydi.
 
 ```python
 text = "    hello world    "
 print(text.lstrip()) # "hello world    "
 ```
-7. `.rstrip()` - Matnning faqat oxiridagi bo'sh joylarni olib tashlaydi.
+6. `.rstrip()` - Matnning faqat oxiridagi bo'sh joylarni olib tashlaydi.
 
 ```python
 text = "    hello world    "
 print(text.rstrip()) # "    hello world"
 ```
+7. `.strip()` - Matnning boshida va oxiridagi bo'sh joylarni olib tashlaydi.
+
+```python
+text = "    hello world    "
+print(text.strip()) # "hello world"
+```
+
 8. `.replace()` - Matndagi ma'lum bir qatorni boshqa qator bilan almashtiradi.
 
 ```python
