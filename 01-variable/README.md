@@ -80,6 +80,7 @@ Python dasturlash tilida `7` ta ma'lumot turi bor, ular quyidagilar:
 ## STRING
 
 - **String(str)** - Matnli ma'lumotlarni ifodalaydi. Masalan: `"hello"`, `'world'`, `"123"`.
+
     **Example:**  
   ```python
     # ikkitalik qo'shtirnoqlar bilan
