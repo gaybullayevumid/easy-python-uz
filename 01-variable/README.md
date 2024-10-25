@@ -278,6 +278,7 @@ Bu metod `2` ta argument qabul qiladi:
 text.center(width, character)
 ```
 `width` - natijada hosil bo'ladigan satrning umumiy uzunligini belgilaydi.
+
 `character`(ixtiyoriy) - to'ldiriladigan belgi. Agar ko'rsatilmasa, bo'shliq (`" "`) belgisi qo'llaniladi.
 
 ```python
