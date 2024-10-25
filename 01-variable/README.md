@@ -15,7 +15,7 @@
 
 ![alt text](images/image.png)
 
-Example:
+**Example:**
 
 Quyidagi misolda 4 ta o'zgaruvchi yaratdik (`x`, `y`, `name` va `is_student`) va ularga har xil ma'lumot yukladik.
 
@@ -30,11 +30,14 @@ print(name)
 print(is_student)
 ```
 
-Natija: <br>
+**Natija:**
+
 `5` <br>
 `3.14` <br>
 `Alice` <br>
 `True`
+
+**Example**
 
 O'zgaruvchi (variable) diyilishini sababi uning qiymati istalgan payt o'zgarishi mumkin:
 
@@ -45,7 +48,8 @@ ism = "Muhammad"
 print(ism)
 ```
 
-Natija: <br>
+**Natija:**
+
 `Alisher` <br>
 `Muhammad`
 
