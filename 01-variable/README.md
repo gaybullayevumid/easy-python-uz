@@ -2,10 +2,6 @@
 
 ## 1-dars O'zgaruvchilar va ma'lumot turlari.
 
-- Mavzular:
-    - O'zgaruvchilar, ma'lumot turlari (int, float, str, bool).
-    - O'zgaruvchilarni e'lon qilish va ularga qiymat berish.
-
 >[!NOTE]
 > Python dasturlash tilida o'zgaruvchilar va ma'lumot turlari dasturlarni tuzishda juda muhim. Quyida o'zgaruvchilar va ularning turli ma'lumot turlari haqida ma'lumot beriladi.
 
@@ -37,7 +33,7 @@ print(is_student)
 `Alice` <br>
 `True`
 
-**Example**
+**Example:**
 
 O'zgaruvchi (variable) diyilishini sababi uning qiymati istalgan payt o'zgarishi mumkin:
 
@@ -64,7 +60,7 @@ Yuqoridagi misolda `ism` nomli o'zgaruvchiga avval `Alisher` keyin esa `Muhammad
 > - O'zgaruvchi nomida bo'shliq (пробел) bo'lishi mumkin emas
 > - O'zgaruvchi nomida katta-kichik harflar turlicha talqin qilinadi (`ism`, `ISM`, va `Ism` uchta turli o'zgaruvchi)
 
-Qo'shimcha qoidalar:
+**'shimcha qoidalar:**
 - O'zgaruvchi nomini kichik harflar bilan yozing.
 - O'zgaruvchi nomida 2 va undan ortiq so'z qatnashsa ularning orasini pastki chiziq (`_`) bilan ajrating (`ism_sharif="Umid G'aybullayev"`) 
 - O'zgaruvchiga tushunarli nom bering (`y=20` emas `yosh=20`, `d="Korea"` emas `davlat = "Korea"` va hokazo)
@@ -77,14 +73,15 @@ Marhamat, ekraningizda Pythondagi maxsus kalit so'zlar ro'yhatini ko'ryapsiz:
 ![alt text](images/keyword.png)
 
 ## MA'LUMOT TURLARI
-Python dasturlash tilida 7ta ma'lumot turi bor, ular quyidagilar:
+Python dasturlash tilida `7` ta ma'lumot turi bor, ular quyidagilar:
 
 ![alt text](images/data_types.png)
 
 ## STRING
 
 - **String(str)** - Matnli ma'lumotlarni ifodalaydi. Masalan: `"hello"`, `'world'`, `"123"`.
-    ```python
+    **Example:**  
+  ```python
     # ikkitalik qo'shtirnoqlar bilan
     text = "Hello world"
 
