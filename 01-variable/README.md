@@ -270,6 +270,21 @@ text = "Hello World!"
 print(text.casefold())
 ```
 
+15. `.center()` - Bu metod satrni belgilangan uzunlikdagi joyga joylashtiradi va o'rtaga qo'yadi. `.center()` yordamida satrning o'rtasiga joylashtirilgan matnning ikki tomoniga belgilangan belgilar yoki bo'shliqlar qo'shish mumkin.
+
+Bu metod `2` ta argument qabul qiladi: 
+
+```python
+text.center(width, character)
+```
+`width` - natijada hosil bo'ladigan satrning umumiy uzunligini belgilaydi.
+`character`(ixtiyoriy) - to'ldiriladigan belgi. Agar ko'rsatilmasa, bo'shliq (`" "`) belgisi qo'llaniladi.
+
+```python
+text = "Python"
+print(text.center(12, '*'))
+```
+Yuqoridagi misolda, `Python` so'zi umumiy uzunligi `12` bo'lgan satrga joylashtirildi va uning ikki tomoniga `*` belgisi qo'shildi. Bu metod, matnni tartib bilan joylashtirish yoki dizayn berish kabi holatlarda qo'l keladi.
 
 
 ## NUMBER
