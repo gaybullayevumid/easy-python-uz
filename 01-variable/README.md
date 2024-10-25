@@ -99,18 +99,28 @@ multiline string.'''
 ```
 ### STRING USTIDA AMALLAR
 Matnlarni qo'shish uchun `+` operatoridan foydalanamiz.
+
+**Example:**
+
 ```python
 ism = "Umid"
 print("Mening ismim " + ism)
 ```
 **Natija:** `Mening ismim Umid`
+
+**Example:**
+
 ```python
 ism = "Umid"
 familiya = "G'aybullayev"
 print(ism + familiya)
 ```
 **Natija:** `UmidG'aybullayev` <br>
+
 Yuqoridagi kodimizda ism va familiya qo'shilib qoldi, uni to'g'irlash uchun quyidagi ko'rinishda yozamiz:
+
+**Example:**
+
 ```python
 ism = "Umid"
 familiya = "G'aybullayev"
@@ -120,6 +130,9 @@ print(ism + ' ' + familiya)
 
 ### STRING UZUNLIGINI ANIQLASH
 Matnlarimizni uzunligini topish uchun `len()` funksiyasidan foydalanamiz.
+
+**Example:**
+
 ```python
 text = "Hello, World!"
 uzunlik = len(text)  # 13
@@ -129,6 +142,9 @@ print(uzunlik)
 
 ### STRING E'LEMENTLARIGA MUROJAT QILISH
 Matnlarimiz ichidan o'zimizga kerak bo'lgan harflarni ajratib olish uchun quyidagi usuldan foydalanamiz:
+
+**Example:**
+
 ```python
 text = "Hello world!"
 first_char = text[0] # H
@@ -144,6 +160,9 @@ print(substring)
 `Hello`
 
 ### STRINGLARNI KO'PAYTIRISH
+
+**Example:**
+
 ```python
 text = "Hello"
 text_repeated = text * 3
@@ -152,6 +171,9 @@ print(text_repeated)
 **Natija:** `HelloHelloHello`
 
 ### F-STRING(Python 3.6+)
+
+**Example:**
+
 ```python
 ism = "Umid"
 yosh = 20
