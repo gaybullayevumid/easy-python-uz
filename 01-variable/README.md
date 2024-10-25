@@ -297,7 +297,9 @@ Bu metod `3` ta argument qabul qiladi:
 text.count(substring, start, end)
 ```
 `substring` - matn ichida necha marta uchrashini tekshiriladigan argument.
+
 `start`(ixtiyoriy) - qidirishni qayerdan boshlash kerakligini bildiradi.
+
 `end`(ixtiyoriy) - Qidirishni qayerda tugatish kerakligini bildiradi.
 
 ```python
