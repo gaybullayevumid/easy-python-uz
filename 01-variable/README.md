@@ -263,6 +263,15 @@ text = "hello world"
 print(text.endswith("world"))  # True 
 ```
 
+14. `.casefold()` - Bu metod kichik harflar va katta harflarni taqqoslashda yordam beradi, ya'ni matndagi har qanday katta harfni kichik harfga aylantiradi. `.casefold()` metodi `.lower()` metodiga o'xshaydi, lekin u turli tillardagi katta-kichik harf farqlarini ham inobatga oladi.
+
+```python
+text = "Hello World!"
+print(text.casefold())
+```
+
+
+
 ## NUMBER
 
 - **Number** - Raqamli ma'lumot turi 2ga bo'linadi:
