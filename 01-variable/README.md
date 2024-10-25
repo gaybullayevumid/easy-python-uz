@@ -236,7 +236,7 @@ text = "hello world"
 print(text.startswith("hello"))  # True
 ```
 13. `.endswith()` - Matn ma'lum bir qator bilan tugashini tekshiradi. `True` yoki `False` qaytaradi.
-    ```python
+```python
 text = "hello world"
 print(text.endswith("world"))  # True 
 ```
