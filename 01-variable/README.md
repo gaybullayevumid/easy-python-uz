@@ -15,6 +15,8 @@
 
 ![alt text](images/image.png)
 
+Example:
+
 Quyidagi misolda 4 ta o'zgaruvchi yaratdik (`x`, `y`, `name` va `is_student`) va ularga har xil ma'lumot yukladik.
 
 ```python
