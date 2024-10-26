@@ -331,6 +331,25 @@ print(text.encode('utf-8'))
 ```
 Yuqoridagi misolda, `.encode()` metodi `Salom Dunyo!` matnini `UTF-8` formatida kodlaydi. Natija baytlar (`bytes`) shaklida chiqariladi, ya'ni `b` prefiksi bilan ko'rsatiladi. Bu metod asosan matnlarni turli tizimlarga yuborish yoki saqlash uchun tayyorlashda ishlatiladi.
 
+18. `.expandtabs()` - metodi `\t` **tab** belgisini belgilangan bo'sh joylarga almashtiradi. Ushbu metodda siz **tab** kengligini belgilashingiz mumkin, bu esa har bir `\t` belgisi qancha bo'sh joy bilan almashtirilishini belgilaydi.
+
+Bu metod `1` ta argument qabul qiladi: 
+
+```python
+string.expandtabs(tabsize=8)
+```
+
+- `tabsize`(ixtiyoriy): `\t` belgisi uchun bo'sh joylar soni. Standart qiymat `8` ga teng.
+
+Ushbu metod stringning nusxasini qaytaradi, bunda `\t` belgilari berilgan tabsize bo'yicha bo'sh joylarga almashtiriladi.
+
+```python
+text = "Hello\tworld"
+result = text.expandtabs(4)
+print(result)
+```
+Bu misolda `\t` belgisi `4` ta bo'sh joy bilan almashtiriladi.
+
 ## NUMBER
 
 - **Number** - Raqamli ma'lumot turi 2ga bo'linadi:
