@@ -15,5 +15,18 @@
 > [!NOTE] 
 > `class` bu ma'lumotlar va ularni qayta ishlovchi funksiyalarni birlashtiruvchi `shablon` yoki `qolip` hisoblanadi. class yordamida `obyektlar` yaratamiz. Har bir obyekt biror `class` ning nusxasi hisoblanadi.
 
+# `class` qanday yaratiladi?
+`class` yaratish uchun `class` kalit so'zidan foydalanamiz va unga `nom` beramiz.
+```python
+class Car:
+    def __init__(self, model, color):
+        self.model = model
+        self.color = color
+    
+    def display_info(self):
+        print(f"Model: {self.model}, Color: {self.color}")
+```
+Yuqoridagi misolda `Car` nomli `class` yaratilgan. `__init__` metodi har safar yangi obyekt yaratilganda avtomatik ravishda chaqiriladi. Bu metod obyektni boshlang'ich holatini o'rnatadi. `self` bu obyektning o'zi, ya'ni yaratilgan obyektga murojaat qilish uchun ishlatiladi.
+
 
 
