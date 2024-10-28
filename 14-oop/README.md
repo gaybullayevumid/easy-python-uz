@@ -191,3 +191,9 @@ class Book:
     # Bu yerga kod yozing
 ```
 
+2. Instansiya O'zgaruvchilarini Qo'llash
+   - Yuqoridagi `Book` classini davom ettiring va unda `get_age` metodini qo'shing. Bu metod kitobning bugungi kunga nisbatan `yoshini` hisoblash kerak (`hozirgi yil - nashr yili`).
+```python
+class Book:
+    # Bu yerga kod yozing
+```
