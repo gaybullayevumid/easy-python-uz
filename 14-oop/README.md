@@ -197,3 +197,16 @@ class Book:
 class Book:
     # Bu yerga kod yozing
 ```
+
+3. Meros Olish
+   - Book classidan meros oluvchi `Ebook` classini yarating. `Ebook` classi quyidagi qo'shimcha atributga ega bo'lishi kerak:
+     - **file_size**(`fayl o'lchami`)
+   - `Ebook` classida `display_info` metodini yangilang va unda `fayl o'lchamini` ko'rsatish uchun ma'lumotlarni chiqarishi kerak.
+
+```python
+class Book:
+    # Bu yerga kod yozing
+
+class Ebook(Book):
+    # Bu yerga kod yozing
+```
