@@ -222,3 +222,15 @@ class BankAccount:
     # Bu yerga kod yozing
 ```
 
+5. classlararo Aloqa
+   - `Author` classini yarating, unda `name` va `books` atributlari bo'lishi kerak. `books` - bu `Book` classidan iborat ro'yxat. `Author` classida quyidagi metodlar bo'lishi kerak:
+     - **add_book**(`book`) - yangi kitob qo'shish.
+     - **display_books()** - muallifga tegishli kitoblarni ko'rsatish.
+
+```python
+class Author:
+    # Bu yerga kod yozing
+```
+
+
+
