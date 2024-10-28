@@ -11,3 +11,9 @@
 3. **Polymorphism** (Polimorfizm) - Bir xil nomdagi metodlarning turli xil sinflarda turlicha ishlash imkoniyatini beradi.
 4. **Abstraction** (Abstraksiya) - Muhim detallarni ajratib olish va ortiqcha tafsilotlarni yashirishni ta'minlaydi.
 
+# `class` nima?
+> [!NOTE] 
+> `class` bu ma'lumotlar va ularni qayta ishlovchi funksiyalarni birlashtiruvchi `shablon` yoki `qolip` hisoblanadi. class yordamida `obyektlar` yaratamiz. Har bir obyekt biror `class` ning nusxasi hisoblanadi.
+
+
+
