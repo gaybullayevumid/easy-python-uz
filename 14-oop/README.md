@@ -286,3 +286,13 @@ class Garage:
     # Bu yerga kod yozing
 ```
 
+10. Qo'shimcha muallif classini yaratish
+    - `Publisher` classini yarating, unda `name` va `books` atributlari bo'lishi kerak. `books` - bu `Book` classidan iborat ro'yxat. `Publisher` classida quyidagi metodlar bo'lishi kerak:
+      - **add_book**(`book`) - nashriyotga kitob qo'shish.
+      - **remove_book**(`title`) - nashriyotdan kitobni olib tashlash.
+      - **display_books()** - nashriyotdagi kitoblarni ko'rsatish.
+
+```python
+class Publisher:
+    # Bu yerga kod yozing
+```
