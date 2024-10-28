@@ -28,5 +28,22 @@ class Car:
 ```
 Yuqoridagi misolda `Car` nomli `class` yaratilgan. `__init__` metodi har safar yangi obyekt yaratilganda avtomatik ravishda chaqiriladi. Bu metod obyektni boshlang'ich holatini o'rnatadi. `self` bu obyektning o'zi, ya'ni yaratilgan obyektga murojaat qilish uchun ishlatiladi.
 
-
+# Obyekt yaratish
+class asosida obyekt yaratish uchun `class` nomiga qavs ichida kerakli parametrlarni yozamiz:
+```python
+class Car:
+    def __init__(self, model, color):
+        self.model = model
+        self.color = color
+    
+    def display_info(self):
+        print(f"Model: {self.model}, Color: {self.color}")
+        
+my_car = Car("Chevrolet", "Black")
+my_car.display_info()
+```
+Bu kod `Car` klassidan yangi `my_car` obyektini yaratadi va uning ma'lumotlarini chop etadi. Natija quyidagicha bo'ladi:
+```shell
+Model: Chevrolet, Color: Black
+```
 
