@@ -64,8 +64,35 @@ class ElectricCar(Car):
     
     def display_battery(self):
         print(f"Battery size: {self.battery_size} kWh")
+
+my_electric_car = ElectricCar("Tesla", "White", 75)
+my_electric_car.display_info()
+my_electric_car.display_battery()
 ```
 Yuqorida `ElectricCar` classi `Car` classining xususiyatlarini olgan va qo'shimcha sifatida `battery_size` maydonini qo'shgan. Bu yerda `super()` orqali ota klassning `__init__` metodini chaqirib, `model` va `color` xususiyatlarini o'rnatamiz.
+
+**Natija:**
+```shell
+Model: Tesla, Color: White
+Battery size: 75 kWh
+```
+## Polymorphism(Polimorfizm)
+Polimorfizm bir xil nomdagi metodlarning turli `class`larda turlicha ishlashini anglatadi. Bu `OOP` da muhim bo'lib, turli ob'ektlarga bir xil metodni qo'llash imkonini beradi.
+
+```python
+class Bird:
+    def sound(self):
+        print("Bird makes a sound")
+
+class Parrot(Bird):
+    def sound(self):
+        print("Parrot says hello")
+
+class Sparrow(Bird):
+    def sound(self):
+        print("Sparrow chirps")
+```
+Yuqorida `Parrot` va `Sparrow` classlari `Bird` classidan meros olgan, lekin har bir classda `sound` metodi turlicha bajariladi:
 
 
 
