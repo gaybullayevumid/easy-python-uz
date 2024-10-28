@@ -22,3 +22,28 @@ class Course:
     # Bu yerga kod yozing
 ```
 
+3. Kompyuter classini yaratish
+   - `Computer` classini yarating, unda `brand`, `model`, va `price` atributlari bo'lishi kerak. `Computer` classida quyidagi metodlar bo'lishi kerak:
+     - **display_info()** - kompyuter haqida ma'lumotlarni ko'rsatish.
+     - **apply_discount**(`discount`) - kompyuter narxiga chegirma qo'llash.
+
+```python
+class Computer:
+    # Bu yerga kod yozing
+```
+
+4. OOP o'yinlar
+   - `Player` classini yarating, unda `name` va `score` atributlari bo'lishi kerak. `Player` classida quyidagi metodlar bo'lishi kerak:
+     - **update_score**(`points`) - ballarni yangilash.
+     - **display_score()** - o'yinchining ballini ko'rsatish.
+   - Shuningdek, `Game` classini yarating, unda `players` atributi bo'lishi kerak. `Game` classida quyidagi metodlar bo'lishi kerak:
+     - **add_player**(`player`) - o'yin davomida o'yinchini qo'shish.
+     - **display_players()** - o'yindagi barcha o'yinchilarni ko'rsatish.
+
+```python
+class Player:
+    # Bu yerga kod yozing
+
+class Game:
+    # Bu yerga kod yozing
+```
