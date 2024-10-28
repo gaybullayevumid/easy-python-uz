@@ -178,6 +178,16 @@ cat.sound()  # Meow!
 ```
 Bu yerda `Animal class`i `abstract class` bo'lib, undagi `sound` metodi barcha farzand classlarida aniqlanishi kerak. `Dog` va `Cat` classlarida `sound` metodini har xil bajarish mumkin.
 
+# AMALIYOT
 
-
+1. `class` yaratish
+   - `Book` classini yarating. U quyidagi atributlarga ega bo'lishi kerak:
+     - **title**(`nomi`)
+     - **author**(`muallifi`)
+     - **year**(`nashr yili`)
+   - Shuningdek, classda `display_info` metodini qo'shing, u kitob haqida ma'lumotlarni chiqarishi kerak.
+```python
+class Book:
+    # Bu yerga kod yozing
+```
 
