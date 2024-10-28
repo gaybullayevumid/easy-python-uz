@@ -46,30 +46,64 @@ Bu kod `Car` classidan yangi `my_car` obyektini yaratadi va uning ma'lumotlarini
 ```shell
 Model: Chevrolet, Color: Black
 ```
+## Encapsulation(Inkapsulyatsiya)
+`Encapsulation` yordamida `class`dagi xususiyatlar (`property`) va metodlarni yashirish mumkin. Bu o'zgaruvchilarning to'g'ridan-to'g'ri o'zgartirilishini oldini olib, maxsus metodlar orqali ularga kirishni ta'minlaydi.
+Pythonda private(`xususiy`) o'zgaruvchilarni yaratish uchun o'zgaruvchining nomi oldiga ikki pastki chiziq (`__`) qo'yamiz:
+```python
+class BankAccount:
+    def __init__(self, balance):
+        self.__balance = balance  # private attribute
+
+    def deposit(self, amount):
+        if amount > 0:
+            self.__balance += amount
+            print(f"{amount} deposited. New balance: {self.__balance}")
+        else:
+            print("Invalid deposit amount")
+
+    def withdraw(self, amount):
+        if amount <= self.__balance:
+            self.__balance -= amount
+            print(f"{amount} withdrawn. New balance: {self.__balance}")
+        else:
+            print("Insufficient funds")
+
+# BankAccount ob'ektini yaratamiz va unga pul qo'shamiz
+account = BankAccount(1000)
+account.deposit(500)      # 500 deposited. New balance: 1500
+account.withdraw(200)     # 200 withdrawn. New balance: 1300
+```
+Yuqorida `__balance` xususiyati to'g'ridan-to'g'ri obyektdan kirish mumkin emas, faqat `deposit` va `withdraw` metodlari orqali o'zgartiriladi.
+
 ## Inheritance(Meros olish)
-Meros olish uchun yangi `class`ni yaratishda mavjud class nomini qavs ichiga yozamiz. Quyidagi misolda `ElectricCar` classi `Car` classidan meros oladi:
+Meros olish boshqa `class`dan xususiyatlar va metodlarni `meros` qilib olish imkonini beradi, bu orqali kod qayta ishlatiladi. Keling, `Car` va `ElectricCar` misollarini yanada kengaytiramiz.
 ```python
 class Car:
-    def __init__(self, model, color):
+    def __init__(self, model, color, year):
         self.model = model
         self.color = color
-    
-    def display_info(self):
-        print(f"Model: {self.model}, Color: {self.color}")
-        
-class ElectricCar(Car):
-    def __init__(self, model, color, battery_size):
-        super().__init__(model, color)
-        self.battery_size = battery_size
-    
-    def display_battery(self):
-        print(f"Battery size: {self.battery_size} kWh")
+        self.year = year
 
-my_electric_car = ElectricCar("Tesla", "White", 75)
-my_electric_car.display_info()
-my_electric_car.display_battery()
+    def drive(self):
+        print(f"{self.model} is driving")
+
+    def stop(self):
+        print(f"{self.model} has stopped")
+
+class ElectricCar(Car):
+    def __init__(self, model, color, year, battery_size):
+        super().__init__(model, color, year)  # Ota klass `Car` ning __init__ metodini chaqiramiz
+        self.battery_size = battery_size
+
+    def charge(self):
+        print(f"{self.model} is charging. Battery size: {self.battery_size} kWh")
+
+tesla = ElectricCar("Tesla Model S", "Red", 2023, 100)
+tesla.drive()      # Tesla Model S is driving
+tesla.charge()     # Tesla Model S is charging. Battery size: 100 kWh
+tesla.stop()       # Tesla Model S has stopped
 ```
-Yuqorida `ElectricCar` classi `Car` classining xususiyatlarini olgan va qo'shimcha sifatida `battery_size` maydonini qo'shgan. Bu yerda `super()` orqali ota klassning `__init__` metodini chaqirib, `model` va `color` xususiyatlarini o'rnatamiz.
+Bu yerda `ElectricCar` classi `Car` classidan `meros` oladi va qo'shimcha `charge` metodini qo'shadi:
 
 **Natija:**
 ```shell
@@ -93,6 +127,56 @@ class Sparrow(Bird):
         print("Sparrow chirps")
 ```
 Yuqorida `Parrot` va `Sparrow` classlari `Bird` classidan meros olgan, lekin har bir classda `sound` metodi turlicha bajariladi:
+
+```python
+class Bird:
+    def sound(self):
+        print("Bird makes a sound")
+
+class Parrot(Bird):
+    def sound(self):
+        print("Parrot says hello")
+
+class Sparrow(Bird):
+    def sound(self):
+        print("Sparrow chirps")
+        
+def make_sound(bird):
+    bird.sound()
+
+parrot = Parrot()
+sparrow = Sparrow()
+
+make_sound(parrot)   # Parrot says hello
+make_sound(sparrow)  # Sparrow chirps
+```
+## Abstraction(Abstraksiya)
+Abstraksiya yordamida foydalanuvchilar faqat kerakli `metod` va `atribut`larga kirishi mumkin bo'ladi. Pythonda to‘g‘ridan-to‘g‘ri abstrakt classlar mavjud emas, ammo **abc**(`Abstract Base Classes`) modulidan foydalanib, `abstrakt class` yaratish mumkin. Keling, hayvonlar misolida ko'ramiz:
+
+```python
+from abc import ABC, abstractmethod
+
+class Animal(ABC):
+    @abstractmethod
+    def sound(self):
+        pass
+
+class Dog(Animal):
+    def sound(self):
+        print("Woof!")
+
+class Cat(Animal):
+    def sound(self):
+        print("Meow!")
+
+dog = Dog()
+cat = Cat()
+
+dog.sound()  # Woof!
+cat.sound()  # Meow!
+
+```
+Bu yerda `Animal class`i `abstract class` bo'lib, undagi `sound` metodi barcha farzand classlarida aniqlanishi kerak. `Dog` va `Cat` classlarida `sound` metodini har xil bajarish mumkin.
 
 
 
