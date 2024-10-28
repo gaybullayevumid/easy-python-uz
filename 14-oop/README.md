@@ -210,3 +210,15 @@ class Book:
 class Ebook(Book):
     # Bu yerga kod yozing
 ```
+
+4. Inkapsulyatsiya
+   - `BankAccount` classini yarating, unda maxfiy `__balance` atributi bo'lishi kerak. classda quyidagi metodlar bo'lishi kerak:
+     - **deposit**(`amount`) - hisobga pul qo'shish.
+     - **withdraw**(`amount`) - hisobdan pul yechib olish.
+     - **get_balance()** - hisobdagi mablag'ni ko'rsatish.
+
+```python
+class BankAccount:
+    # Bu yerga kod yozing
+```
+
