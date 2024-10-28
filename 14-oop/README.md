@@ -232,5 +232,57 @@ class Author:
     # Bu yerga kod yozing
 ```
 
+6. Barcha Tuzilmalarni Qo'llash
+   - Yangi dastur yarating, unda Library classini yarating. `Library` classida quyidagi atributlar bo'lishi kerak:
+     - **name**(`kutubxona nomi`)
+     - **books**(`kitoblar ro'yxati`)
+   - `Library` classida quyidagi metodlar bo'lishi kerak:
+     - **add_book**(`book`) - kutubxonaga kitob qo'shish.
+     - **remove_book**(`title`) - kutubxonadan kitobni olib tashlash.
+     - **display_books()** - kutubxonadagi kitoblarni ko'rsatish.
 
+```python
+class Library:
+    # Bu yerga kod yozing
+```
+
+7. Avtobus classini yaratish
+   - `Bus` classini yarating, bu class quyidagi atributlarga ega bo'lishi kerak:
+     - **bus_number**(`avtobus raqami`)
+     - **capacity**(`sig'imi`)
+     - **passengers**(`yo'lovchilar ro'yxati`)
+   - `Bus` classida quyidagi metodlar bo'lishi kerak:
+     - **add_passenger**(`passenger`) - avtobusga yo'lovchi qo'shish.
+     - **remove_passenger**(`passenger`) - avtobusdan yo'lovchini olib tashlash.
+     - **display_passengers()** - avtobusdagi barcha yo'lovchilarni ko'rsatish.
+
+```python
+class Bus:
+    # Bu yerga kod yozing
+```
+
+8. Avtobusdan meros olish
+   - `DoubleDeckerBus` classini `Bus` classidan meros qilib oling. Bu classda qo'shimcha atributlar sifatida `upper_capacity` (yuqori qavat sig'imi) va `lower_capacity` (pastki qavat sig'imi) bo'lishi kerak. `DoubleDeckerBus` klassida `add_passenger` metodini yangilang, shunda u har ikki qavatda yo'lovchilarni hisobga olishi kerak.
+
+```python
+class Bus:
+    # Bu yerga kod yozing
+
+class DoubleDeckerBus(Bus):
+    # Bu yerga kod yozing
+```
+
+9. Mashinalar garaji
+   - `Garage` classini yarating, bu classda quyidagi atributlar bo'lishi kerak:
+     - **name**(`garaj nomi`)
+     - **cars**(`mashinalar ro'yxati`)
+   - `Garage` classida quyidagi metodlar bo'lishi kerak:
+     - **add_car**(`car`) - garajga mashina qo'shish.
+     - **remove_car**(`car`) - garajdan mashinani olib tashlash.
+     - **display_cars()** - garajdagi barcha mashinalarni ko'rsatish.
+
+```python
+class Garage:
+    # Bu yerga kod yozing
+```
 
