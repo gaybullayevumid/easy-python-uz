@@ -409,8 +409,8 @@ print(type(y))  # <class 'int'>
 print(type(z))  # <class 'int'>
 print(type(a))  # <class 'int'>
 ```
-### INTEGER OPERATSIYALARI
-Integerlar ustida asosiy matematik operatsiyalarni bajarish mumkin:
+### INTEGER USTIDA AMALLAR
+Integerlar ustida asosiy matematik amallarni bajarish mumkin:
 ```python
 a = 10
 b = 3
@@ -449,7 +449,7 @@ x, y, z = 10, -7.25, -30
 
 ### O'ZGARUVCHI TURINI ALMASHTIRISH
 
-Python dasturlash tilida o'zgaruvchilar turini bir ma'lumot turidan boshqa ma'lumot turiga o'zgartirish uchun turli xil funksiyalar mavjud. Ushbu jarayon tur o'zgartirish (`type casting`) deb ataladi. Quyida integer, float va string ma'lumot turlarini o'zaro o'zgartirish usullari haqida batafsil ma'lumot keltirilgan.
+Python dasturlash tilida o'zgaruvchilar turini bir ma'lumot turidan boshqa ma'lumot turiga o'zgartirish jarayoni `type casting`(**tur o'zgartirish**) deb ataladi.
 
 #### Integerda Floatga o'zgartirish
 
