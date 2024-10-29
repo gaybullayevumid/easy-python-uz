@@ -451,7 +451,7 @@ x, y, z = 10, -7.25, -30
 
 Python dasturlash tilida o'zgaruvchilar turini bir ma'lumot turidan boshqa ma'lumot turiga o'zgartirish jarayoni `type casting` deb ataladi.
 
-#### Integerda Floatga o'zgartirish
+#### integerdan floatga o'zgartirish
 
 ```python
 x = 10
@@ -461,7 +461,7 @@ print(type(y))  # <class 'float'>
 print(y)        # 10.0
 ```
 
-#### Floatdan Integerga o'zgartirish
+#### floatdan integerga o'zgartirish
 > [!NOTE]
 > Floatni Integerga o'zgartirishda kasr qismini olib tashlaydi.
 
@@ -473,10 +473,10 @@ print(type(y))  # <class 'int'>
 print(y)        # 3
 ```
 
-#### Stringdan Floatga o'zgartirish
+#### Stringdan integerga o'zgartirish
 
 > [!CAUTION]
-> Stringni integerga o'zgartirish uchun string faqat raqamlarni o'z ichiga olishi kerak.
+> stringni integerga o'zgartirish uchun string faqat `raqamlarni` o'z ichiga olishi kerak.
 
 ```python
 s = "123"
@@ -486,7 +486,7 @@ print(type(x))  # <class 'int'>
 print(x)        # 123
 ```
 
-#### Integerdan Stringga o'zgartirish
+#### integerdan stringga o'zgartirish
 
 ```python
 x = 123
@@ -496,7 +496,7 @@ print(type(s))  # <class 'str'>
 print(s)        # "123"
 ```
 
-#### Floatdan Stringga o'zgartirish
+#### floatdan stringga o'zgartirish
 
 ```python
 x = 3.14
