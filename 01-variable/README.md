@@ -449,7 +449,7 @@ x, y, z = 10, -7.25, -30
 
 ### O'ZGARUVCHI TURINI ALMASHTIRISH
 
-Python dasturlash tilida o'zgaruvchilar turini bir ma'lumot turidan boshqa ma'lumot turiga o'zgartirish jarayoni `type casting`(**tur o'zgartirish**) deb ataladi.
+Python dasturlash tilida o'zgaruvchilar turini bir ma'lumot turidan boshqa ma'lumot turiga o'zgartirish jarayoni `type casting` deb ataladi.
 
 #### Integerda Floatga o'zgartirish
 
