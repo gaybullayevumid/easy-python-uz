@@ -357,7 +357,7 @@ Bu misolda `\t` belgisi `4` ta bo'sh joy bilan almashtiriladi.
 - `{}` - Bu joy to'ldirilishi kerak bo'lgan o'rinlarni bildiradi.
 - `.format(qiymat1, qiymat2)` - Har bir `{}` uchun tegishli qiymatlarni berib, `string` ichiga qo'yadi.
 
-**Example:**
+1. **Oddiy formatlash:**
 
 ```python
 ism = "Umid"
@@ -366,6 +366,14 @@ matn = "Mening ismim {} va yoshim {} da.".format(ism, yosh)
 print(matn)
 ```
 **Natija:** `Mening ismim Umid va yoshim 20 da.`
+
+2. **Indekslar bilan formatlash:**
+
+```python
+matn = "Bu yerda {0} va {1} bor. {0} eng mashhuri.".format("kitob", "qalam")
+print(matn)
+```
+**Natija:** `Bu yerda kitob va qalam bor. kitob eng mashhuri.`
 
 ## NUMBER
 
