@@ -1,11 +1,7 @@
 # PYTHON DASTURLASH ASOSLARI
 
-## 3-dars Ro'yxatlar va qatorlar.
+# LISTS
 
-- Mavzular
-    - Ro'yxatlar(lists) bilan ishlash.
-    - Qatorlar (tuples) va ular bilan ishlash.
-    - Indekslar va bo'laklash (slicing).
 
 ## RO'YHATLAR(LISTS) BILAN ISHLASH
 
