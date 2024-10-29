@@ -375,6 +375,22 @@ print(matn)
 ```
 **Natija:** `Bu yerda kitob va qalam bor. kitob eng mashhuri.`
 
+3. **Kalit so'zlar bilan formatlash:**
+
+```python
+matn = "{ism}ning yoshi {yosh} da.".format(ism="Umid", yosh=20)
+print(matn)
+```
+**Natija:** `Umidning yoshi 20 da.`
+
+4. **Sonlarni formatlash:**
+
+```python
+matn = "O'rtacha baho: {:.2f}".format(85.4567)
+print(matn)
+```
+**Natija:** `O'rtacha baho: 85.46`
+
 ## NUMBER
 
 - **Number** - Raqamli ma'lumot turi 2ga bo'linadi:
