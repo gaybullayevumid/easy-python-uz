@@ -348,6 +348,25 @@ print(result)
 ```
 Bu misolda `\t` belgisi `4` ta bo'sh joy bilan almashtiriladi.
 
+19. `.format()` - metodi Pythonda stringlarni shakllantirish uchun ishlatiladi. Bu metod orqali string ichidagi o'rinlarni kerakli qiymatlar bilan to'ldirish mumkin.
+
+- Sintaksis
+```python
+"{} va {}".format(qiymat1, qiymat2)
+```
+- `{}` - Bu joy to'ldirilishi kerak bo'lgan o'rinlarni bildiradi.
+- `.format(qiymat1, qiymat2)` - Har bir `{}` uchun tegishli qiymatlarni berib, `string` ichiga qo'yadi.
+
+**Example:**
+
+```python
+ism = "Umid"
+yosh = 20
+matn = "Mening ismim {} va yoshim {} da.".format(ism, yosh)
+print(matn)
+```
+**Natija:** `Mening ismim Umid va yoshim 20 da.`
+
 ## NUMBER
 
 - **Number** - Raqamli ma'lumot turi 2ga bo'linadi:
