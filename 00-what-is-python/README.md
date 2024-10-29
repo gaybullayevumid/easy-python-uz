@@ -6,17 +6,17 @@
 > **Python** — `yuqori darajadagi`, `umumiy maqsadli` dasturlash tili bo‘lib, o‘zining `oson o‘qilishi` va `tushunarli sintaksisi` bilan mashhur. 1980-yillarning oxirida `Guido van Rossum` tomonidan ishlab chiqilgan va birinchi marta 1991-yilda chiqarilgan. Python bugungi kunda keng qo‘llaniladi, chunki u turli xil sohalarda ishlash imkoniyatini beradi.
 
 ### Pythonning asosiy xususiyatlari:
-- **Sodda va tushunarli sintaksis:** Pythonning sintaksisi boshqa dasturlash tillariga qaraganda `osonroq` va `tushunarliroq`, shuning uchun yangi boshlovchilar uchun juda qulay.
+- **Simple and Readable Syntax:** Pythonning sintaksisi boshqa dasturlash tillariga qaraganda `osonroq` va `tushunarliroq`, shuning uchun yangi boshlovchilar uchun juda qulay.
 
-- **Interpretatorlangan til:** Python interpretator orqali bajariladi, ya'ni kod yozilganidan so‘ng darhol ishlatilishi mumkin, kompilyatsiya talab qilinmaydi.
+- **Interpreted Language:** Python interpretator tili hisoblanadi, ya'ni kod `qatorma-qator` bajariladi. Bu xatoliklarni tezda topishga yordam beradi va dasturlashni qulaylashtiradi.
 
-- **Ko‘p platformaliligi:** Python ko‘pgina operatsion tizimlarda ishlaydi, masalan, `Windows`, `MacOS`, va `Linux`.
+- **Cross-Platform:** Python ko‘pgina operatsion tizimlarda ishlaydi, masalan, `Windows`, `MacOS`, va `Linux`.
 
-- **Keng kutubxona to‘plamlari:** Pythonda ko‘plab tayyor kutubxonalar mavjud bo‘lib, ular turli sohalarda, masalan, `veb-dasturlash`, `ilmiy hisob-kitoblar`, `sun’iy intellekt` va boshqalarda qo‘llaniladi.
+- **Extensive Library Collections:** Python o'zining boy standart kutubxonasi va modullari bilan ko'plab vazifalarni bajarishga imkon beradi, shu jumladan, `development`, `data analysis`, `machine learning` va boshqalar.
 
-- **Obyektga yo‘naltirilgan dasturlash:** Python obyektga yo‘naltirilgan dasturlashni qo‘llab-quvvatlaydi, bu esa katta dasturlarni tuzishni osonlashtiradi.
+- **Object-Oriented Programming:** Python `OOP`ni qo'llab-quvvatlaydi. Bu katta dasturlarni modullarga ajratib, ularni mustaqil ravishda ishlashini osonlashtiradi.
 
-- **Moslashuvchan va kengaytirilishi mumkin:** Pythonni boshqa tillar bilan birlashtirish yoki maxsus kutubxonalar orqali kengaytirish mumkin.
+- **Flexible and Extensible:** Pythonni boshqa tillar bilan birlashtirish yoki maxsus kutubxonalar orqali kengaytirish mumkin.
 
 
 ### Python qanday ishlaydi?
