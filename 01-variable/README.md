@@ -393,7 +393,7 @@ print(matn)
 
 ## NUMBER
 
-- **Number** - Raqamli ma'lumot turi 2ga bo'linadi:
+- **Number** - Raqamli ma'lumot turi `2` ga bo'linadi:
     - **Integer(int)** - Butun sonlarni ifodalaydi. Masalan: `10`, `-3`, `42`.
 
 Integer ma'lumot turi butun sonlarni ifodalaydi. Bu sonlar `manfiy`, `musbat` yoki `0` bo'lishi mumkin. Integerlar cheklanmagan uzunlikka ega, ya'ni Python juda katta sonlarni ham integer sifatida saqlay oladi.
