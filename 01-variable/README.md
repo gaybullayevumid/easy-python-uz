@@ -527,10 +527,10 @@ yosh = 2020 - t_yil #
 print("Siz " + yosh + " yoshda ekansiz")
 ```
 
-    - **Floating Point(float)** - O'nlik sonlarni ifodalaydi. Masalan: `3.14`, `-2.7`,` 0.99`.
+- **Floating Point(float)** - O'nlik sonlarni ifodalaydi. Masalan: `3.14`, `-2.7`,` 0.99`.
 
 > [!NOTE]
-> Pythonda o'nlik sonlar `floating point numbers` yoki qisqa qilib `floats` deyiladi. **"Floating point numbers"** atamasini o'zbek tiliga **"suzuvchi nuqtali sonlar"** deb tarjima qilish mumkin. Ingliz tilida o'nlik sonlarni yozishda vergul (`,`) emas nuqta (`.`) belgisi ishlatiladi, va bu nuqta sonning katta kichikligiga qarab joyi o'zgargani uchun **"floating"** (`suzuvchi`) deyiladi.
+> Pythonda o'nlik sonlar `floating point numbers` yoki qisqa qilib `floats` deyiladi. Ingliz tilida o'nlik sonlarni yozishda vergul (`,`) emas nuqta (`.`) belgisi ishlatiladi, va bu nuqta sonning katta kichikligiga qarab joyi o'zgargani uchun `"floating"` deyiladi.
 
 ```python
 pi = 3.14159 # o'nlik son (float)
