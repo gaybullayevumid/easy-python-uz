@@ -21,11 +21,11 @@
 
 ### Python qanday ishlaydi?
 
-- **Kodni yozish:** Dastlab, dasturchi `.py` kengaytmali fayllarda `Python` kodini yozadi.
-- **Interpretator orqali bajarish:** Yozilgan kod `Python interpretatori` yordamida bevosita bajariladi. Masalan, `python script.py` buyrug‘ini kiritish orqali.
-- **Bytecodega aylantirish:** `Python interpretatori` dastlab `Python` kodini `bytecodega` aylantiradi (`.pyc` fayllari). Bu jarayon tezroq ishlashga yordam beradi.
-- **PyVMda bajarish:** Bytecode Python Virtual Mashinasida `(PyVM)` bajariladi. `PyVM` bytecodeni mashina kodi (kompyuter tushunadigan til) ga aylantiradi va operatsion tizim orqali bajaradi.
-
+- **Code Writing**: Dastlab Python kodini `.py` fayl ko'rinishida yozasiz.
+- **Interpreter Runs**: Python interpretatori ushbu kodni o’qib, uni mashina tushunadigan `baytlarga` o‘zgartiradi. Bu jarayonda kod `qatorma-qator` tahlil qilinadi va ishlatiladi.
+- **Conversion to Bytecode**: Kod `bytecode`ga o‘zgartiriladi, bu esa Python `PVM`da ishlaydi. `bytecode` — bu kompyuterga tushunarli bo’lgan oraliq kod, lekin u hali ham yuqori darajali tildir.
+- **Python Virtual Machine (PVM)**: `bytecode` PVM orqali ishlaydi, va bu virtual mashina dastur kodini to‘liq bajaradi. Bu jarayon kompyuteringiz operatsion tizimi orqali amalga oshiriladi.
+- **Output Generated**: Kod bajarilishi bilan natijalar ekranga chiqariladi yoki kerakli hisob-kitoblar amalga oshiriladi.
 
 ### Pythonning qo‘llanish sohalari:
 
