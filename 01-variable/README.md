@@ -473,7 +473,7 @@ print(type(y))  # <class 'int'>
 print(y)        # 3
 ```
 
-#### Stringdan integerga o'zgartirish
+#### stringdan integerga o'zgartirish
 
 > [!CAUTION]
 > stringni integerga o'zgartirish uchun string faqat `raqamlarni` o'z ichiga olishi kerak.
@@ -506,8 +506,8 @@ print(type(s))  # <class 'str'>
 print(s)        # "3.14"
 ```
 
-### INPUT
-Foydalanuvchidan ma'lumot olish uchun input() funksiyasidan foydalanamiz:
+### input()
+Foydalanuvchidan ma'lumot olish uchun `input()` funksiyasidan foydalanamiz:
 
 ```python
 ism = input("Ismingizni kiriting: ")
