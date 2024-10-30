@@ -364,40 +364,40 @@ Bu misolda `\t` belgisi `4` ta bo'sh joy bilan almashtiriladi.
 1. **Oddiy formatlash:**
 
 ```python
-ism = "Umid"
-yosh = 20
-matn = "Mening ismim {} va yoshim {} da.".format(ism, yosh)
-print(matn)
+name = "Umid"
+age = 20
+text = "Mening ismim {} va yoshim {} da.".format(name, age)
+print(text)
 ```
-**Natija:** `Mening ismim Umid va yoshim 20 da.`
+**Result:** `Mening ismim Umid va yoshim 20 da.`
 
 2. **Indekslar bilan formatlash:**
 
 ```python
-matn = "Bu yerda {0} va {1} bor. {0} eng mashhuri.".format("kitob", "qalam")
-print(matn)
+text = "Bu yerda {0} va {1} bor. {0} eng mashhuri.".format("kitob", "qalam")
+print(text)
 ```
-**Natija:** `Bu yerda kitob va qalam bor. kitob eng mashhuri.`
+**Result:** `Bu yerda kitob va qalam bor. kitob eng mashhuri.`
 
 3. **Kalit so'zlar bilan formatlash:**
 
 ```python
-matn = "{ism}ning yoshi {yosh} da.".format(ism="Umid", yosh=20)
-print(matn)
+text = "{ism}ning yoshi {yosh} da.".format(ism="Umid", yosh=20)
+print(text)
 ```
-**Natija:** `Umidning yoshi 20 da.`
+**Result:** `Umidning yoshi 20 da.`
 
 4. **Sonlarni formatlash:**
 
 ```python
-matn = "O'rtacha baho: {:.2f}".format(85.4567)
-print(matn)
+text = "O'rtacha baho: {:.2f}".format(85.4567)
+print(text)
 ```
-**Natija:** `O'rtacha baho: 85.46`
+**Result:** `O'rtacha baho: 85.46`
 
 20. `.format_map()` metodi `dictionary` asosida matnni `placeholder` bilan formatlash uchun ishlatiladi. Bu `str.format()` ga o'xshash bo'lib, lekin to'g'ridan-to'g'ri argumentlarni qabul qilish o'rniga, lug'atni ishlatadi va `placeholder` o'rniga qiymatlarni qo'yadi.
 
-Syntax
+**Syntax:**
 ```python
 string.format_map(dictionary)
 ```
@@ -418,6 +418,19 @@ My name is Umid and I am 25 years old.
 - Key Points
   - `.format_map()` katta hajmdagi lug'atlar bilan yaxshi ishlaydi va samarador.
   - Agar `dictionary`da `placeholder` qiymati bo'lmasa, `.format_map() KeyError` xatosini chiqaradi. Buning oldini olish uchun `collections.defaultdict` kabi maxsus lug'at `class`ni ishlatish mumkin.
+
+`.format_map()` va yetishmayotgan kalitlar bilan ishlash
+Agar ba'zi `key`lar mavjud bo'lmasa va xato chiqmasligini istasangiz, `collections.defaultdict` dan foydalanishingiz mumkin:
+
+```python
+from collections import defaultdict
+
+# Kalitlar yo'q bo'lganda standart qiymat qaytaradigan lug'at
+info = defaultdict(lambda: "noma'lum", name="Umid")
+
+result = "Mening ismim {name} va men {age} yoshdaman.".format_map(info)
+print(result)
+```
 
 
 ## NUMBER
