@@ -436,6 +436,45 @@ print(result)
 Mening ismim Umid va men noma'lum yoshdaman.
 ```
 
+21. `.index()` metodi matn ichida `belgilangan qism` yoki `substring` qaysi indeksdan boshlanishini topish uchun ishlatiladi. Agar kiritilgan qism matn ichida topilsa, u holda uning birinchi uchragan indeksini qaytaradi. Topilmasa, `ValueError` xatosini chiqaradi.
+
+**Syntax:**
+```python
+string.index(substring, [start], [end])
+```
+- substring - qidirilayotgan substring (matn qismi).
+- start(optional) - qidiruvni qaysi indeksdan boshlash kerakligini belgilaydi.
+- end(optional) -  qidiruvni qaysi indeksgacha qilish kerakligini belgilaydi.
+
+```python
+text = "Hello, Python programming language!"
+
+# 'Python' qismi qaysi indeksdan boshlanishini topish
+index = text.index("Python")
+print("Index:", index)
+```
+**Result:**
+```shell
+Indeks: 7
+```
+Specifying `start` and `end` indexes
+```python
+text = "Learning programming languages is interesting."
+
+# 'til' qismi 10-indeksdan boshlab qidirilmoqda
+index = text.index("lang", 10)
+print("Index:", index)
+```
+**Result:**
+```shell
+Indeks: 11
+```
+
+Key Points
+- Agar substring topilmasa, `ValueError` xatosi chiqadi.
+- `.index()` faqat `substring`ning birinchi uchragan joyini qaytaradi, shuning uchun bir nechta bir xil qismlar mavjud bo'lsa, faqat `eng birinchi` index beriladi.
+
+
 
 ## NUMBER
 
