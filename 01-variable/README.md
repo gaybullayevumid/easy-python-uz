@@ -397,8 +397,7 @@ print(matn)
 
 20. `.format_map()` metodi `dictionary` asosida matnni `placeholder` bilan formatlash uchun ishlatiladi. Bu `str.format()` ga o'xshash bo'lib, lekin to'g'ridan-to'g'ri argumentlarni qabul qilish o'rniga, lug'atni ishlatadi va `placeholder` o'rniga qiymatlarni qo'yadi.
 
-- Syntax
-
+Syntax
 ```python
 string.format_map(dictionary)
 ```
