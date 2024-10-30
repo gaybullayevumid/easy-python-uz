@@ -26,7 +26,7 @@ print(name)
 print(is_student)
 ```
 
-**Natija:**
+**Result:**
 
 `5` <br>
 `3.14` <br>
@@ -44,7 +44,7 @@ name = "Muhammad"
 print(name)
 ```
 
-**Natija:**
+**Result:**
 
 `Alisher` <br>
 `Muhammad`
@@ -110,7 +110,7 @@ Matnlarni qo'shish uchun `+` operatoridan foydalanamiz.
 name = "Umid"
 print("Mening ismim " + name)
 ```
-**Natija:** `Mening ismim Umid`
+**Result:** `Mening ismim Umid`
 
 **Example:**
 
@@ -119,7 +119,7 @@ first_name = "Umid"
 last_name = "G'aybullayev"
 print(first_name + last_name)
 ```
-**Natija:** `UmidG'aybullayev` <br>
+**Result:** `UmidG'aybullayev` <br>
 
 Yuqoridagi kodimizda ism va familiya qo'shilib qoldi, uni to'g'irlash uchun quyidagi ko'rinishda yozamiz:
 
@@ -130,7 +130,7 @@ ism = "Umid"
 familiya = "G'aybullayev"
 print(ism + ' ' + familiya)
 ```
-**Natija:** `Umid G'aybullayev`
+**Result:** `Umid G'aybullayev`
 
 ### STRING UZUNLIGINI ANIQLASH
 Matnlarimizni uzunligini topish uchun `len()` funksiyasidan foydalanamiz.
@@ -139,10 +139,10 @@ Matnlarimizni uzunligini topish uchun `len()` funksiyasidan foydalanamiz.
 
 ```python
 text = "Hello, World!"
-uzunlik = len(text)  # 13
-print(uzunlik)
+length = len(text)  # 13
+print(length)
 ```
-**Natija:** `13`
+**Result:** `13`
 
 ### STRING E'LEMENTLARIGA MUROJAT QILISH
 Matnlarimiz ichidan o'zimizga kerak bo'lgan harflarni ajratib olish uchun quyidagi usuldan foydalanamiz:
@@ -158,7 +158,7 @@ print(first_char)
 print(last_char)
 print(substring)
 ```
-**Natija:** <br>
+**Result:** <br>
 `H` <br>
 `!` <br>
 `Hello`
@@ -172,7 +172,7 @@ text = "Hello"
 text_repeated = text * 3
 print(text_repeated)
 ```
-**Natija:** `HelloHelloHello`
+**Result:** `HelloHelloHello`
 
 ### F-STRING(Python 3.6+)
 
@@ -184,7 +184,7 @@ yosh = 20
 text = f"Mening ismim {ism}, yoshim {yosh}da" #Mening ismim Umid, yoshim 20da
 print(text)
 ```
-**Natija:** `Mening ismim Umid, yoshim 20da`
+**Result:** `Mening ismim Umid, yoshim 20da`
 
 ### STRING METODLARI
 Python dasturlash tilida, stringlar ustida turli xil operatsiyalarni bajarish uchun bir qancha o'rnatilgan metodlar mavjud. Quyida eng ko'p qo'llaniladigan string metodlari va ularning misollari keltirilgan:
