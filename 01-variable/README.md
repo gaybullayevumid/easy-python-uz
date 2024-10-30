@@ -38,10 +38,10 @@ print(is_student)
 `variable` diyilishini sababi uning qiymati istalgan payt o'zgarishi mumkin:
 
 ```python
-ism = 'Alisher'
-print(ism)
-ism = "Muhammad"
-print(ism)
+name = 'Alisher'
+print(name)
+name = "Muhammad"
+print(name)
 ```
 
 **Natija:**
@@ -49,7 +49,7 @@ print(ism)
 `Alisher` <br>
 `Muhammad`
 
-Yuqoridagi misolda `ism` nomli o'zgaruvchiga avval `Alisher` keyin esa `Muhammad` deb qiymat berdik.
+Yuqoridagi misolda `name` nomli o'zgaruvchiga avval `Alisher` keyin esa `Muhammad` deb qiymat berdik.
 
 ### O'ZGARUVCHILARNI NOMLASH
 > [!CAUTION]
@@ -60,7 +60,7 @@ Yuqoridagi misolda `ism` nomli o'zgaruvchiga avval `Alisher` keyin esa `Muhammad
 > - O'zgaruvchi nomida bo'shliq (пробел) bo'lishi mumkin emas
 > - O'zgaruvchi nomida katta-kichik harflar turlicha talqin qilinadi (`ism`, `ISM`, va `Ism` uchta turli o'zgaruvchi)
 
-**'shimcha qoidalar:**
+**Q'shimcha qoidalar:**
 - O'zgaruvchi nomini kichik harflar bilan yozing.
 - O'zgaruvchi nomida 2 va undan ortiq so'z qatnashsa ularning orasini pastki chiziq (`_`) bilan ajrating (`ism_sharif="Umid G'aybullayev"`) 
 - O'zgaruvchiga tushunarli nom bering (`y=20` emas `yosh=20`, `d="Korea"` emas `davlat = "Korea"` va hokazo)
@@ -86,16 +86,20 @@ Python dasturlash tilida `7` ta ma'lumot turi bor, ular quyidagilar:
 ```python
 # ikkitalik qo'shtirnoqlar bilan
 text = "Hello world"
+print(text)
 
 # bittalik qo'shtirnoqlar bilan
 text = 'Hello world'
+print(text)
 
 # Ko'p qatorli stringlar uchlik qo'shtirnoqlar bilan
 text = """This is a
 multiline string."""
+print(text)
 
 text = '''This is also a
 multiline string.'''
+print(text)
 ```
 ### STRING USTIDA AMALLAR
 Matnlarni qo'shish uchun `+` operatoridan foydalanamiz.
@@ -103,17 +107,17 @@ Matnlarni qo'shish uchun `+` operatoridan foydalanamiz.
 **Example:**
 
 ```python
-ism = "Umid"
-print("Mening ismim " + ism)
+name = "Umid"
+print("Mening ismim " + name)
 ```
 **Natija:** `Mening ismim Umid`
 
 **Example:**
 
 ```python
-ism = "Umid"
-familiya = "G'aybullayev"
-print(ism + familiya)
+first_name = "Umid"
+last_name = "G'aybullayev"
+print(first_name + last_name)
 ```
 **Natija:** `UmidG'aybullayev` <br>
 
