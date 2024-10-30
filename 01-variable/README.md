@@ -354,7 +354,7 @@ Bu misolda `\t` belgisi `4` ta bo'sh joy bilan almashtiriladi.
 
 19. `.format()` - metodi Pythonda stringlarni shakllantirish uchun ishlatiladi. Bu metod orqali string ichidagi o'rinlarni kerakli qiymatlar bilan to'ldirish mumkin.
 
-- Sintaksis
+- Syntax
 ```python
 "{} va {}".format(qiymat1, qiymat2)
 ```
@@ -394,6 +394,32 @@ matn = "O'rtacha baho: {:.2f}".format(85.4567)
 print(matn)
 ```
 **Natija:** `O'rtacha baho: 85.46`
+
+20. `.format_map()` metodi `dictionary` asosida matnni `placeholder` bilan formatlash uchun ishlatiladi. Bu `str.format()` ga o'xshash bo'lib, lekin to'g'ridan-to'g'ri argumentlarni qabul qilish o'rniga, lug'atni ishlatadi va `placeholder` o'rniga qiymatlarni qo'yadi.
+
+- Syntax
+
+```python
+string.format_map(dictionary)
+```
+**Example:**
+```python
+# Dictionary with values to replace placeholders
+info = {"name": "Umid", "age": 25}
+
+# Using format_map to replace placeholders
+result = "My name is {name} and I am {age} years old.".format_map(info)
+
+print(result)
+```
+**Result:**
+```shell
+My name is Umid and I am 25 years old.
+```
+- Key Points
+  - `.format_map()` katta hajmdagi lug'atlar bilan yaxshi ishlaydi va samarador.
+  - Agar `dictionary`da `placeholder` qiymati bo'lmasa, `.format_map() KeyError` xatosini chiqaradi. Buning oldini olish uchun `collections.defaultdict` kabi maxsus lug'at `class`ni ishlatish mumkin.
+
 
 ## NUMBER
 
