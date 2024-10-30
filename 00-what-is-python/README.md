@@ -31,11 +31,11 @@
 
 ### Pythonning qo‘llanish sohalari:
 
-- **Veb-dasturlash:** [Django](https://www.djangoproject.com/), [Flask](https://flask.palletsprojects.com/en/3.0.x/) kabi freymvorklar orqali veb-saytlar va veb-ilovalar yaratish.
-- **Ilmiy hisob-kitoblar va ma'lumotlar tahlili:** [NumPy](https://numpy.org/), [pandas](https://pandas.pydata.org/), [SciPy](https://scipy.org/), [matplotlib](https://matplotlib.org/) kabi kutubxonalar yordamida.
-- **Sun'iy intellekt va mashinani o‘rganish:** [TensorFlow](https://www.tensorflow.org/), [Keras](https://keras.io/), [PyTorch](https://pytorch.org/) kabi kutubxonalar yordamida.
-- **Avtomatlashtirish va skript yozish:** Turli xil vazifalarni avtomatlashtirish uchun.
-- **O'yin dasturlash:** [Pygame](https://www.pygame.org/news) kabi kutubxonalar yordamida.
+- **Web Development:** [Django](https://www.djangoproject.com/), [Flask](https://flask.palletsprojects.com/en/3.0.x/) kabi freymvorklar orqali veb-saytlar va veb-ilovalar yaratish.
+- **Data Analysis and Scientific Computing:** [NumPy](https://numpy.org/), [pandas](https://pandas.pydata.org/), [SciPy](https://scipy.org/), [matplotlib](https://matplotlib.org/) kabi kutubxonalar yordamida.
+- **AI(Artificial Intelligence) and Machine Learning:** [TensorFlow](https://www.tensorflow.org/), [Keras](https://keras.io/), [PyTorch](https://pytorch.org/) kabi kutubxonalar yordamida.
+- **Automation and Scripting:** Turli xil vazifalarni avtomatlashtirish uchun.
+- **Game Development:** [Pygame](https://www.pygame.org/news) kabi kutubxonalar yordamida.
 
 
 ### Python Muhiti va O‘rnatish:
