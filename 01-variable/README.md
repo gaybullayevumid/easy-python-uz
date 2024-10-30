@@ -431,6 +431,10 @@ info = defaultdict(lambda: "noma'lum", name="Umid")
 result = "Mening ismim {name} va men {age} yoshdaman.".format_map(info)
 print(result)
 ```
+**Natija:**
+```shell
+Mening ismim Umid va men noma'lum yoshdaman.
+```
 
 
 ## NUMBER
