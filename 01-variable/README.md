@@ -470,9 +470,9 @@ print("Index:", index)
 Indeks: 11
 ```
 
-Key Points
-- Agar substring topilmasa, `ValueError` xatosi chiqadi.
-- `.index()` faqat `substring`ning birinchi uchragan joyini qaytaradi, shuning uchun bir nechta bir xil qismlar mavjud bo'lsa, faqat `eng birinchi` index beriladi.
+- **Key Points**
+  - Agar substring topilmasa, `ValueError` xatosi chiqadi.
+  - `.index()` faqat `substring`ning birinchi uchragan joyini qaytaradi, shuning uchun bir nechta bir xil qismlar mavjud bo'lsa, faqat `eng birinchi` index beriladi.
 
 
 
