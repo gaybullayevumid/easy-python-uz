@@ -3,11 +3,11 @@
 # LISTS
 
 
-## RO'YHATLAR(LISTS) BILAN ISHLASH
+## LISTS
 
 Lists(`ro'yhatlar`) bir nechta qiymatlarni bitta o'zgaruvchiga saqlash imkonini beradi. Ro'yxatlar `dinamik` tuzilma bo'lib, ular yaratilgandan keyin o'zgartirilishi mumkin.
 
-### RO'YHAT YARATISH
+### CREATING A LISTS
 
 ```python
 my_list = [1, 2, 3, 4, 5]
