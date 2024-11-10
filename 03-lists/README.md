@@ -2,9 +2,6 @@
 
 # LISTS
 
-
-## LISTS
-
 Lists(`ro'yhatlar`) bir nechta qiymatlarni bitta o'zgaruvchiga saqlash imkonini beradi. Ro'yxatlar `dinamik` tuzilma bo'lib, ular yaratilgandan keyin o'zgartirilishi mumkin.
 
 ### CREATING A LISTS
