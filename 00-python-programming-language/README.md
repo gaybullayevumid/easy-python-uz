@@ -1,7 +1,7 @@
 # Python Programming language
 
 > [!NOTE]
-> 1980-yillarning oxirida Guido van Rossum Python dasturlash tilini yaratishni orzu qilgan edi.
+> 1980-yillarning oxirida **Guido van Rossum** Python dasturlash tilini yaratishni orzu qilgan edi. Pythonning **birinchi versiyasi – 0.9.0, 1991-yilda chiqarilgan.**
 
 ## WHAT IS PYTHON?
 
