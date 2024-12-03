@@ -10,7 +10,21 @@
 > Python – bu **general-purpose(umumiy maqsadli)**, **dynamically typed(dinamik turdagi)**, **high-level(yuqori darajadagi)**, **compiled and interpreted**, **garbage-collected**, **object-oriented programming language**, **functional programming**ni qo‘llab-quvvatlaydi.
 
 ### Features of Python:
-- **Easy to use and Read(Foydalanish va o‘qish uchun qulay)** Pythonning sintaksisi boshqa dasturlash tillariga qaraganda `osonroq` va `tushunarliroq`, shuning uchun yangi boshlovchilar uchun juda qulay.
+- **Easy to use and Read(Foydalanish va o‘qish uchun qulay)** Pythonning sintaksisi boshqa dasturlash tillariga qaraganda **osonroq** va **tushunarliroq**, shuning uchun yangi boshlovchilar uchun juda qulay va xatoliklar yuzaga kelish ehtimolini kamaytiradi.
+- **Dynamically Typed:** Dinamik turdagi dasturlash tilida o'zgaruvchilarning ma'lumot turi ishlatilish vaqtida aniqlanadi. Bu degani, o'zgaruvchiga qanday ma'lumot turi berilganligini dastur ishlab boradigan paytda bilib olish mumkin. Bu tillarda o'zgaruvchiga turli xil ma'lumot turlarini berish mumkin.
+  - **Advantages of Dynamically Typed Languages:**
+    - **Faster development:** Dastur tezlashadi, chunki o'zgaruvchilarning turlarini aniqlashga vaqt sarflanmaydi.
+    - **Concise code:** Kamroq kod yoziladi, chunki o'zgaruvchilarning qiymatini aniqlash uchun qo'shimcha kod yozilmaydi.
+    - **Easier code modification:** Dasturni o'zgartirish oson bo'ladi, chunki o'zgaruvchilarning turlarini o'zgartirish uchun kamroq ish talab qilinadi.
+  - **Disadvantages of Dynamically Typed Languages:**
+    - **Increased potential for runtime errors:** Type-related errors may not be detected until runtime.
+    - **Reduced code readability:** Dasturlarni tushunish qiyinroq bo'lishi mumkin, chunki o'zgaruvchilarning turlarini dastur ishlab boradigan paytda bilish mumkin.
+    - **Challenges in code optimization:** Dasturlarni optimizatsiya qilish qiyinroq bo'lishi mumkin, chunki o'zgaruvchilarning turlarini aniqlash uchun qo'shimcha vaqt va resurslar talab etiladi.
+  - **Examples of Dynamically Typed Languages:**
+    - Python
+    - JavaScript
+    - Ruby
+    - PHP
 
 - **Interpreted Language:** Python interpretator tili hisoblanadi, ya'ni kod `qatorma-qator` bajariladi. Bu xatoliklarni tezda topishga yordam beradi va dasturlashni qulaylashtiradi.
 
