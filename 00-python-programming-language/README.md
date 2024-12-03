@@ -10,7 +10,7 @@
 > Python – bu **general-purpose(umumiy maqsadli)**, **dynamically typed(dinamik turdagi)**, **high-level(yuqori darajadagi)**, **compiled and interpreted**, **garbage-collected**, **object-oriented programming language**, **functional programming**ni qo‘llab-quvvatlaydi.
 
 ### Features of Python:
-- **Easy to use and Read(Foydalanish va o‘qish uchun qulay)** Pythonning sintaksisi boshqa dasturlash tillariga qaraganda **osonroq** va **tushunarliroq**, shuning uchun yangi boshlovchilar uchun juda qulay va xatoliklar yuzaga kelish ehtimolini kamaytiradi.
+- **Easy to use and Read** Pythonning sintaksisi boshqa dasturlash tillariga qaraganda **osonroq** va **tushunarliroq**, shuning uchun yangi boshlovchilar uchun juda qulay va xatoliklar yuzaga kelish ehtimolini kamaytiradi.
 - **Dynamically Typed:** Dinamik turdagi dasturlash tilida o'zgaruvchilarning ma'lumot turi ishlatilish vaqtida aniqlanadi. Bu degani, o'zgaruvchiga qanday ma'lumot turi berilganligini dastur ishlab boradigan paytda bilib olish mumkin. Bu tillarda o'zgaruvchiga turli xil ma'lumot turlarini berish mumkin.
   - **Advantages of Dynamically Typed Languages:**
     - **Faster development:** Dastur tezlashadi, chunki o'zgaruvchilarning turlarini aniqlashga vaqt sarflanmaydi.
@@ -25,6 +25,8 @@
     - JavaScript
     - Ruby
     - PHP
+
+- **High-level:** Yuqori darajadagi til bu odam o'qiy oladigan kodni anglatadi. 
 
 - **Interpreted Language:** Python interpretator tili hisoblanadi, ya'ni kod `qatorma-qator` bajariladi. Bu xatoliklarni tezda topishga yordam beradi va dasturlashni qulaylashtiradi.
 
