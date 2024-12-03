@@ -4,13 +4,13 @@
 > 1980-yillarning oxirida **Guido van Rossum** Python dasturlash tilini yaratishni orzu qilgan edi. Pythonning **birinchi versiyasi – 0.9.0, 1991-yilda chiqarilgan.** Chiqarilgandan so‘ng, Python ommalasha boshladi. Hisobotlarga ko‘ra, hozirda Python texnologiyalar sohasida yuqori talabga ega bo‘lgani sababli dasturchilar orasida eng mashhur dasturlash tili hisoblanadi.
 
 
-## WHAT IS PYTHON?
+## What is Python?
 
 >[!NOTE] 
 > Python – bu **general-purpose(umumiy maqsadli)**, **dynamically typed(dinamik turdagi)**, **high-level(yuqori darajadagi)**, **compiled and interpreted**, **garbage-collected**, **object-oriented programming language**, **functional programming**ni qo‘llab-quvvatlaydi.
 
-### Pythonning asosiy xususiyatlari:
-- **Simple and Readable Syntax:** Pythonning sintaksisi boshqa dasturlash tillariga qaraganda `osonroq` va `tushunarliroq`, shuning uchun yangi boshlovchilar uchun juda qulay.
+### Features of Python:
+- **Easy to use and Read(Foydalanish va o‘qish uchun qulay)** Pythonning sintaksisi boshqa dasturlash tillariga qaraganda `osonroq` va `tushunarliroq`, shuning uchun yangi boshlovchilar uchun juda qulay.
 
 - **Interpreted Language:** Python interpretator tili hisoblanadi, ya'ni kod `qatorma-qator` bajariladi. Bu xatoliklarni tezda topishga yordam beradi va dasturlashni qulaylashtiradi.
 
