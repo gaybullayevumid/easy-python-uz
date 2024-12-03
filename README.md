@@ -1,1 +1,1 @@
-# PYTHON DASTURLASH ASOSLARI
+# Easy Python
