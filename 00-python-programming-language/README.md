@@ -1,4 +1,7 @@
-# PYTHON DASTURLASH ASOSLARI
+# Python Programming language
+
+> [!NOTE]
+> 1980-yillarning oxirida Guido van Rossum Python dasturlash tilini yaratishni orzu qilgan edi.
 
 ## WHAT IS PYTHON?
 
