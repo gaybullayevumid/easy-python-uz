@@ -101,8 +101,3 @@ Windows
 ```python
 print("Hello World!")
 ```
-
-## AMALIYOT
-- `Python` interpreterini o'rnatish.
-- `Hello, World!` dasturini yozish va ishga tushirish.
-- `print()` funksiyasi yordamida turli xabarlarni chiqarish.
