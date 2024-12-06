@@ -11,6 +11,11 @@
 
 ## Declaring variables
 
+> [!NOTE] 
+> Python **static type** dasturlash tillaridan farqli o‘laroq, o‘zgaruvchilarni e’lon qilishda **type**ni aniqlashni talab qilmaydi. Python **dynamic type language** bo‘lgani uchun qiymatga qarab o‘zi o‘zgaruvchi turini aniqlaydi.
+
+
+
 **O'zgaruvchi** - kompyuter xotirasida ma'lum bir qiymatni saqlash uchun ajratilgan joy.
 
 ![alt text](images/image.png)
