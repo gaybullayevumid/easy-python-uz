@@ -7,7 +7,7 @@
 - Extended data types (complex, None)
 
 >[!NOTE]
-> Python dasturlash tilida `variables` — bu ma’lumotlarni `vaqtincha saqlash` uchun ishlatiladigan `nomlangan konteynerlardir`. O‘zgaruvchilar yordamida `ma’lumotlar bilan ishlash`, `ularni saqlash` va `qayta ishlatish` qulaylashadi.
+> Python dasturlash tilida **variables** — bu ma’lumotlarni **vaqtincha saqlash** uchun ishlatiladigan **nomlangan konteynerlardir**. O‘zgaruvchilar yordamida **ma’lumotlar bilan ishlash**, **ularni saqlash** va **qayta ishlatish** qulaylashadi.
 
 ## Declaring variables
 
