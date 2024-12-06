@@ -1,4 +1,4 @@
-# Python Programming language
+# Python Programming Language
 
 > [!NOTE]
 > 1980-yillarning oxirida **Guido van Rossum** Python dasturlash tilini yaratishni orzu qilgan edi. Pythonning **birinchi versiyasi – 0.9.0, 1991-yilda chiqarilgan.** Chiqarilgandan so‘ng, Python ommalasha boshladi. Hisobotlarga ko‘ra, hozirda Python texnologiyalar sohasida yuqori talabga ega bo‘lgani sababli dasturchilar orasida eng mashhur dasturlash tili hisoblanadi.
