@@ -13,20 +13,12 @@
 
 > Python **static type** dasturlash tillaridan farqli o‘laroq, o‘zgaruvchilarni e’lon qilishda **type**ni aniqlashni talab qilmaydi. Python **dynamic type language** bo‘lgani uchun qiymatga qarab o‘zi o‘zgaruvchi turini aniqlaydi.
 
-**Basic Variable Declaration**
-```python
-x = 10  # Integer
-name = "Umid"  # String
-height = 5.9  # Float
-is_student = True  # Boolean
-```
 
-
-**O'zgaruvchi** - kompyuter xotirasida ma'lum bir qiymatni saqlash uchun ajratilgan joy.
+**O'zgaruvchi** - kompyuter xotirasida ma'lum bir qiymatni saqlash uchun ajratilgan nomlangan joy.
 
 ![alt text](images/image.png)
 
-**Example:**
+**Basic Variable Declaration**
 
 Quyidagi misolda 4 ta o'zgaruvchi yaratdik (`x`, `y`, `name` va `is_student`) va ularga har xil ma'lumot yukladik.
 
