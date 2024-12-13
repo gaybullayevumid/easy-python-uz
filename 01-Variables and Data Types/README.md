@@ -26,21 +26,12 @@ Quyidagi misolda 4 ta o'zgaruvchi yaratdik (`x`, `y`, `name` va `is_student`) va
 x = 5 # Butun son (int)
 y = 3.14 # Haqiqiy son (float)
 name = "Alice"  # Matn (str)
-is_student = True  # Mantiqiy qiymat (bool)
+is_active = True  # Mantiqiy qiymat (bool)
 print(x)
 print(y)
 print(name)
-print(is_student)
+print(is_active)
 ```
-
-**Result:**
-
-`5` <br>
-`3.14` <br>
-`Alice` <br>
-`True`
-
-**Example:**
 
 `variable` diyilishini sababi uning qiymati istalgan payt o'zgarishi mumkin:
 
@@ -50,11 +41,6 @@ print(name)
 name = "Muhammad"
 print(name)
 ```
-
-**Result:**
-
-`Alisher` <br>
-`Muhammad`
 
 Yuqoridagi misolda `name` nomli o'zgaruvchiga avval `Alisher` keyin esa `Muhammad` deb qiymat berdik.
 
