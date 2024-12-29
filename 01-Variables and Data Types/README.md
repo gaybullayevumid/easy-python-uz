@@ -6,16 +6,13 @@
 - Type casting
 - Extended data types (complex, None)
 
->[!NOTE]
-> Python dasturlash tilida **variables** — bu ma’lumotlarni **vaqtincha saqlash** uchun ishlatiladigan **nomlangan konteynerlardir**. O‘zgaruvchilar yordamida **ma’lumotlar bilan ishlash**, **ularni saqlash** va **qayta ishlatish** qulaylashadi.
-
 ## Declaring variables
 
 > [!NOTE]
 > Python **static type** dasturlash tillaridan farqli o‘laroq, o‘zgaruvchilarni e’lon qilishda **type**ni kiritishni talab qilmaydi. Python **dynamic type language** bo‘lgani uchun qiymatga qarab o‘zi o‘zgaruvchi turini aniqlaydi.
 
 
-**O'zgaruvchi** - kompyuter xotirasida ma'lum bir qiymatni saqlash uchun ajratilgan nomlangan joy.
+**O'zgaruvchi** — bu ma’lumotlarni vaqtincha saqlash uchun ishlatiladigan nomlangan konteynerlardir. O‘zgaruvchilar yordamida ma’lumotlar bilan ishlash, ularni saqlash va qayta ishlatish qulaylashadi.
 
 ![alt text](images/image.png)
 
