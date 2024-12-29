@@ -20,7 +20,7 @@
 
 **Basic Variable Declaration**
 
-Quyidagi misolda 4 ta o'zgaruvchi yaratdik (`x`, `y`, `name` va `is_student`) va ularga har xil ma'lumot yukladik.
+Quyidagi misolda 4 ta o'zgaruvchi yaratdik (`x`, `y`, `name` va `is_active`) va ularga har xil ma'lumot yukladik.
 
 ```python
 x = 5 # Butun son (int)
