@@ -16,7 +16,7 @@
 
 ![alt text](images/image.png)
 
-**Basic Variable Declaration**
+### Basic Variable Declaration
 
 Quyidagi misolda 4 ta o'zgaruvchi yaratdik (`x`, `y`, `name` va `is_active`) va ularga har xil ma'lumot yukladik.
 
@@ -30,8 +30,8 @@ print(y)
 print(name)
 print(is_active)
 ```
-
-`variable` diyilishini sababi uning qiymati istalgan payt o'zgarishi mumkin:
+> [!NOTE]
+> `variable` diyilishini sababi uning qiymati istalgan payt o'zgarishi mumkin:
 
 ```python
 name = 'Alisher'
