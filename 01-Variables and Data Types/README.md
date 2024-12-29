@@ -9,7 +9,7 @@
 # Declaring variables
 
 > [!NOTE]
-> Python **static type** dasturlash tillaridan farqli o‘laroq, o‘zgaruvchilarni e’lon qilishda **type**ni kiritishni talab qilmaydi. Python **dynamic type language** bo‘lgani uchun qiymatga qarab o‘zi o‘zgaruvchi turini aniqlaydi.
+> Python `static type` dasturlash tillaridan farqli o‘laroq, o‘zgaruvchilarni e’lon qilishda `type`ni kiritishni talab qilmaydi. Python `dynamic type` dasturlash tili bo‘lgani uchun qiymatga qarab o‘zi o‘zgaruvchi turini aniqlaydi.
 
 
 **O'zgaruvchi** — bu ma’lumotlarni vaqtincha saqlash uchun ishlatiladigan nomlangan konteynerlardir. O‘zgaruvchilar yordamida ma’lumotlar bilan ishlash, ularni saqlash va qayta ishlatish qulaylashadi.
