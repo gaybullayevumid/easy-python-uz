@@ -6,7 +6,7 @@
 - Type casting
 - Extended data types (complex, None)
 
-# Declaring variables
+# Declaring Variables
 
 > [!NOTE]
 > Python `static type` dasturlash tillaridan farqli o‘laroq, o‘zgaruvchilarni e’lon qilishda `type`ni kiritishni talab qilmaydi. Python `dynamic type` dasturlash tili bo‘lgani uchun qiymatga qarab o‘zi o‘zgaruvchi turini aniqlaydi.
@@ -63,7 +63,7 @@ print(keyword.kwlist)
 Marhamat, ekraningizda Pythondagi maxsus kalit so'zlar ro'yhatini ko'ryapsiz:
 ![alt text](images/keyword.png)
 
-## MA'LUMOT TURLARI
+## Data Types
 Python dasturlash tilida `7` ta ma'lumot turi bor, ular quyidagilar:
 
 ![alt text](images/data_types.png)
