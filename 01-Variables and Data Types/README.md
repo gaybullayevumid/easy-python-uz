@@ -2,7 +2,7 @@
 
 
 <details>
-  <summary>Topics:</summary>
+  <summary>Topics</summary>
 
 -  <kbd>[Declaring variables](https://github.com/gaybullayevumid/easy-python-uz/tree/main/01-Variables%20and%20Data%20Types#declaring-variables)</kbd>
 -  <kbd>[Data types (int, float, str, bool, etc.)](https://github.com/gaybullayevumid/easy-python-uz/tree/main/01-Variables%20and%20Data%20Types#data-types)</kbd>
@@ -106,7 +106,7 @@ text = '''This is also a
 multiline string.'''
 print(text)
 ```
-### STRING USTIDA AMALLAR
+### String Concatenation
 Matnlarni qo'shish uchun `+` operatoridan foydalanamiz.
 
 **Example:**
