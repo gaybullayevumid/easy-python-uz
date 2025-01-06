@@ -70,7 +70,7 @@ Python dasturlash tilida `7` ta ma'lumot turi bor, ular quyidagilar:
 
 ## String
 
-- **String** - matnli ma'lumotlarni ifodalaydi. `"hello"`, `'world'`, `"123"`.
+- **String** - bu matnlarni ifodalash uchun ishlatiladigan ma'lumot turi. Stringlar ketma-ket joylashgan belgilar (harflar, raqamlar, bo'shliqlar yoki maxsus belgilar) to'plamidan iborat bo'lib, ular **double quotes** yoki **single quotes** ichiga yoziladi. `"hello"`, `'world'`, `"123"`.
 
 **Example:**  
 
