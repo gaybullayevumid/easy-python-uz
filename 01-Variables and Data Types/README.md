@@ -1,10 +1,16 @@
 # Variables and Data Types
 
-**Topics:**
-- Declaring variables
-- Data types (int, float, str, bool, etc.)
-- Type casting
-- Extended data types (complex, None)
+
+<details>
+  <summary>Topics:</summary>
+
+-  <kbd>[Declaring variables](https://github.com/gaybullayevumid/easy-python-uz/tree/main/01-Variables%20and%20Data%20Types#declaring-variables)</kbd>
+-  <kbd>[Data types (int, float, str, bool, etc.)](https://github.com/gaybullayevumid/easy-python-uz/tree/main/01-Variables%20and%20Data%20Types#data-types)</kbd>
+-  <kbd>[Type casting](https://binarytree.dev/md_table_generator)</kbd>
+-  <kbd>[Extended data types (complex, None)](https://binarytree.dev/md_table_generator)</kbd>
+
+</details>
+
 
 # Declaring Variables
 
