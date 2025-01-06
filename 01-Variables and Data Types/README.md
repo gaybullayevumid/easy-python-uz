@@ -70,9 +70,17 @@ Marhamat, ekraningizda Pythondagi maxsus kalit so'zlar ro'yhatini ko'ryapsiz:
 ![alt text](images/keyword.png)
 
 # Data Types
-Python dasturlash tilida `7` ta ma'lumot turi bor, ular quyidagilar:
+| Definition      | Type                               |
+|-----------------|------------------------------------|
+| Text Type       | `str`                              |
+| Numeric Types   | `int`, `float`, `complex`          |
+| Sequence Types  | `list`, `tuple`, `range`           |
+| Mapping Type    | `dict`                             |
+| Set Types       | `set`, `frozenset`                 |
+| Boolean Type    | `bool`                             |
+| Binary Types    | `bytes`, `bytearray`, `memoryview` |
+| None Type       | `NoneType`                         |
 
-![alt text](images/data_types.png)
 
 ## String
 
