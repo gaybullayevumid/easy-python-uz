@@ -68,22 +68,22 @@ Python dasturlash tilida `7` ta ma'lumot turi bor, ular quyidagilar:
 
 ![alt text](images/data_types.png)
 
-## STRING
+## String
 
-- **String(str)** - Matnli ma'lumotlarni ifodalaydi. Masalan: `"hello"`, `'world'`, `"123"`.
+- **String** - matnli ma'lumotlarni ifodalaydi. `"hello"`, `'world'`, `"123"`.
 
 **Example:**  
 
 ```python
-# ikkitalik qo'shtirnoqlar bilan
+# Using double quotes
 text = "Hello world"
 print(text)
 
-# bittalik qo'shtirnoqlar bilan
+# Using single quotes
 text = 'Hello world'
 print(text)
 
-# Ko'p qatorli stringlar uchlik qo'shtirnoqlar bilan
+# Using triple quotes (for multiline text)
 text = """This is a
 multiline string."""
 print(text)
