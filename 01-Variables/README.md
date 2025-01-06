@@ -6,9 +6,9 @@
 
 # Creating Variables
 
-Python dasturlash tilida o'zgaruvchi yaratadigan keyword yo'q
+Python dasturlash tilida o'zgaruvchi yaratadigan `keyword` yo'q.
 
-O'zgaruvchi unga birinchi marta qiymat berilganda yaratiladi
+O'zgaruvchi unga birinchi marta qiymat berilganda yaratiladi.
 
 ```python
 x = 5 # int -> Integer
@@ -31,3 +31,21 @@ print(x)
 
 # Casting
 
+Python dasturlash tilida o'zgaruvchilar turini bir ma'lumot turidan boshqa ma'lumot turiga o'zgartirish jarayoni `type casting` deb ataladi.
+
+```python
+x = str(3)    # x -> '3'
+y = int(3)    # y -> 3
+z = float(3)  # z -> 3.0
+```
+
+# Get the Type
+
+`type()` funksiyasi yordamida o'zgaruvchilarning malumot turini olish mumkin.
+
+```python
+x = 5
+y = "John"
+print(type(x))
+print(type(y))
+```
