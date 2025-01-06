@@ -69,7 +69,7 @@ print(keyword.kwlist)
 Marhamat, ekraningizda Pythondagi maxsus kalit so'zlar ro'yhatini ko'ryapsiz:
 ![alt text](images/keyword.png)
 
-## Data Types
+# Data Types
 Python dasturlash tilida `7` ta ma'lumot turi bor, ular quyidagilar:
 
 ![alt text](images/data_types.png)
