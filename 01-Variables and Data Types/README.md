@@ -617,19 +617,6 @@ diametr = 2*radius
 print("Aylana uzunligi ", pi*diametr, " ga teng.")
 ```
 
-- Pythonda `sequence types` (ketma-ketlik) ma'lumot turlari turli xil elementlarni tartiblangan shaklda saqlash uchun ishlatiladi. Asosiy `sequence` turlari quyidagilar:
-    - **List(list):** Tartiblangan va o'zgaruvchan ma'lumotlar to'plami. Masalan: `my_list = [1, 'Hello', True, '5.6']`
-    - **Tuple(tuple):** Tartiblangan, lekin o'zgarmas ma'lumotlar to'plami. Masalan: `my_tuple = (1, 2, 3, 4, 5)`
-    - **Range(range):** `Ketma-ket` sonlar intervalini ifodalaydi. Masalan: `range(1, 11)`
-- Pythonda `mapping types` ma'lumot turi `kalit-qiymat` juftlari ko'rinishida ma'lumotlarni saqlash uchun ishlatiladi. Pythonda asosiy mapping ma'lumot turi bu **dictionary(dict)** hisoblanadi. `Dictionary` - kalit (`key`) va qiymat (`value`) juftlaridan tashkil topgan tartibsiz ma'lumotlar to'plami.
-- Pythonda `set` - bu unikal elementlar to'plami bo'lib, `tartibsiz` va `indekslanmagan` holda saqlanadi. `Set` ma'lumot turi `duplikat` elementlarni o'z ichiga olmaydi va asosiy foydalanish maqsadi to'plam operatsiyalarini bajarish (`union`, `intersection`, `difference` va boshqalar) hisoblanadi.
-    - Pythonda frozenset `o'zgarmas set` ma'lumot turi bo'lib, setning barcha xususiyatlariga ega, lekin elementlari yaratilgandan so'ng o'zgartirilmaydi.
-- Pythonda `boolean(bool)` ma'lumot turi ikkita qiymatni ifodalaydi: `True` va `False`. `Boolean` ma'lumot turi mantiqiy ifodalarni baholash va shartli tekshiruvlarni amalga oshirish uchun ishlatiladi. 
-- Pythonda `binary` ma'lumot turlari ikkilik (`binary`) ma'lumotlar bilan ishlash uchun ishlatiladi. Asosiy `binary` ma'lumot turlari quyidagilardan iborat:
-    - **bytes:** O'zgarmas ikkilik ma'lumotlar to'plami.
-    - **bytearray:** O'zgaruvchan ikkilik ma'lumotlar to'plami.
-    - **memoryview:** Mavjud ikkilik ma'lumotlarni ko'rish va manipulyatsiya qilish imkonini beradi.
-
 ## AMALIYOT
 1. O‘zgaruvchilar bilan arifmetik amallar
     - Quyidagi arifmetik amallarni bajarish uchun o‘zgaruvchilarni yarating:
