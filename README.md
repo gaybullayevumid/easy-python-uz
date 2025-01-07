@@ -1,4 +1,4 @@
-# Easy Python
+# Easy Python - Table of Contents
 
 - [Variables](https://github.com/gaybullayevumid/easy-python-uz/blob/main/01-Variables/variables.md#variables)
     - [Variable Name](https://github.com/gaybullayevumid/easy-python-uz/blob/main/01-Variables/variable-name.md#variable-names)
