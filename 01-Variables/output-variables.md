@@ -1,0 +1,33 @@
+# Output Variables
+
+Output variables deganda, o'zgaruvchilarga berilgan qiymatlarni terminalga chiqarish tushuniladi. Buning uchun eng ko'p ishlatiladigan metod `print()` funksiyasi hisoblanadi.
+
+# Using `print()` function
+
+O‘zgaruvchining qiymatini chiqarishning eng oddiy usuli — uni `print()` funksiyasiga uzatish.
+
+```python
+x = "Easy Python"
+print(x)
+```
+
+# Using print() with Multiple Variables
+
+Bir nechta o‘zgaruvchini bitta `print()` funksiyasi yordamida chiqarish mumkin, o‘zgaruvchilarni vergul bilan ajratib yozish kerak. Python avtomatik ularni orasiga bo‘shliq qo‘yadi.
+
+```python
+name = "Umid"
+age = 21
+city = "Navoiy"
+print(name, age, city)
+```
+
+# Using String Concatenation
+
+O‘zgaruvchilar va matnlarni birlashtirib, bitta qatorda chiqarish mumkin.
+
+```python
+name = "Umid"
+age = 21
+print("My name is " + name + " and I am " + str(age) + " years old.")
+```
