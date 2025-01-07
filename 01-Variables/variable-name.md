@@ -18,7 +18,7 @@ my var = "John"
 
 - Qo'shimcha qoidalar:
   - O'zgaruvchi nomini kichik harflar bilan yozing.
-  - O'zgaruvchi nomida 2 va undan ortiq so'z qatnashsa ularning orasini pastki chiziq (`_`) bilan ajrating (`ism_sharif="Umid G'aybullayev"`).
+  - O'zgaruvchi nomida 2 va undan ortiq so'z qatnashsa ularning orasini pastki chiziq (`_`) bilan ajrating (`ism_familiya="Umid G'aybullayev"`).
   - O'zgaruvchiga tushunarli nom bering (`y=20` emas `yosh=20`, `d="Korea"` emas `davlat = "Korea"` va hokazo).
   - Shuningdek o'zgaruvchilarga Pythonda ishlatiladigan funksiyalar va maxsus kalit so'zlarning(keywords) nomini bermang.
 
@@ -36,4 +36,28 @@ Kalit so'zlar ro'yhatini ko'rish uchun python faylga uyidagi kodni yozamiz:
 ```python
 import keyword
 print(keyword.kwlist)
+```
+
+# Camel Case
+
+So‘zlarning birinchi harfi kichik, ikkinchi va undan keyingi so‘zlarning birinchi harfi katta bo‘ladi.
+
+```python
+myVariableName = "John"
+```
+
+# Pascal Case
+
+Har bir so‘zning birinchi harfi katta bo‘ladi.
+
+```python
+MyVariableName = "John"
+```
+
+# Snake Case
+
+So‘zlar kichik harflar bilan yoziladi va ular orasida pastki chiziq _ ishlatiladi.
+
+```python
+my_variable_name = "John"
 ```
