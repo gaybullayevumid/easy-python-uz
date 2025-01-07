@@ -74,3 +74,30 @@ message = "It's a beautiful day!"
 print(message)  # Natija: It's a beautiful day!
 ```
 
+# Triple quotes
+
+Agar string ko'p qatorli bo'lsa, `triple quotes` ishlatiladi.
+
+```python
+# Using triple quotes (for multiline text)
+text = """This is a
+multiline string."""
+print(text)
+
+text = '''This is also a
+multiline string.'''
+print(text)
+```
+
+# Case-Sensitive
+
+Python katta-kichik harflarga sezgir bu `case-sensitive` deyiladi, yani katta-kichik harflar bilan yozilgan o'zgaruvchi nomini har xil tushunadi.
+
+
+```python
+a = 4
+A = "Sally"
+# A will not overwrite a
+print(a)
+print(A)
+```
