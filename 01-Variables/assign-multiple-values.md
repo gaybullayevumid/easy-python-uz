@@ -35,7 +35,7 @@ print(b)
 
 # Using * for arbitrary values
 
-* operatorini ishlatib, bir nechta qiymatni bitta o‘zgaruvchiga saqlash mumkin.
+`*` operatorini ishlatib, bir nechta qiymatni bitta o‘zgaruvchiga saqlash mumkin.
 
 ```python
 numbers = (10, 20, 30, 40, 50)
