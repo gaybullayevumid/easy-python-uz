@@ -1,15 +1,15 @@
-# Assign Multiple Values
+# Assign multiple values
 
 Pythonda bir nechta qiymatlarni bir nechta o'zgaruvchilarga bitta qatorda berish mumkin.
 
-# Assigning the Same Value
+# Assigning the same value
 
 ```python
 a = b = c = 100
 print(a, b, c)
 ```
 
-# Assigning Different Values
+# Assigning different values
 
 ```python
 a, b, c = 20, 2.5, "Python"
@@ -18,6 +18,8 @@ print(b)  # 2.5
 print(c)  # "Python"
 ```
 
+# Using string slicing
+
 ```python
 text = "Easy Python"
 a, b = text[0:5], text[5:]
@@ -25,7 +27,7 @@ print(a)
 print(b)
 ```
 
-# Using * for Arbitrary Values
+# Using * for arbitrary values
 
 * operatorini ishlatib, bir nechta qiymatni bitta o‘zgaruvchiga berish mumkin.
 
