@@ -91,7 +91,7 @@ print(text)
 
 # Case-Sensitive
 
-Python katta-kichik harflarga sezgir bu `case-sensitive` deyiladi, yani katta-kichik harflar bilan yozilgan o'zgaruvchi nomini har xil tushunadi.
+Python katta-kichik harflarga sezgir bu `case-sensitive` deyiladi, yani katta-kichik harflar bilan yaratilgan o'zgaruvchi nomini har xil tushunadi.
 
 
 ```python
