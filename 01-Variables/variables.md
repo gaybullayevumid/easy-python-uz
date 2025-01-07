@@ -49,3 +49,28 @@ y = "John"
 print(type(x))
 print(type(y))
 ```
+
+# Single or Double Quotes?
+
+O'zgaruvchilar uchun single quote (`''`) yoki duble quote (`""`) ishlatishni farqi yo'q. Ikkalasi ham bir xil ishlaydi.
+
+Single quote
+```python
+name = 'John'
+```
+
+Duble quote
+```python
+name = "John"
+```
+
+```python
+# Single quotes ishlatamiz:
+message = 'He said, "Python is awesome!"'
+print(message)  # Natija: He said, "Python is awesome!"
+
+# Double quotes ishlatamiz:
+message = "It's a beautiful day!"
+print(message)  # Natija: It's a beautiful day!
+```
+
