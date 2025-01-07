@@ -1,5 +1,7 @@
 # Variable Names
 
+# Rules for Naming Variables
+
 O'zgaruvchilarga nom berishda quyidagi qoidalarga amal qiling:
 
 > [!CAUTION]
