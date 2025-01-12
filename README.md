@@ -5,7 +5,7 @@
     - [Assign multiple values](https://github.com/gaybullayevumid/easy-python-uz/blob/main/01-Variables/1.3-assign-multiple-values.md#assign-multiple-values)
     - [Output variables](https://github.com/gaybullayevumid/easy-python-uz/blob/main/01-Variables/1.4-output-variables.md#output-variables)
     - [Declaring variables](https://github.com/gaybullayevumid/easy-python-uz/tree/main/01-Variables%20and%20Data%20Types#declaring-variables)
-    - [Data types](https://github.com/gaybullayevumid/easy-python-uz/blob/main/02-Data%20Types/data-types.md#data-types)
+    - [Data types](https://github.com/gaybullayevumid/easy-python-uz/blob/main/02-Data%20Types/2.1-data-types.md#data-types)
       - String
       - Integer
       - Float
